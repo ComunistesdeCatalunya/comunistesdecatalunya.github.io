@@ -174,6 +174,23 @@ article.post {
 
 }
 
+/* Scroll-slide */
+
+.scroll-slide {
+	height: 480px;
+	width: 100%;
+	white-space: nowrap;
+	overflow-y: hidden;
+	overflow-x: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+.scroll-slide * {
+	display: inline;
+}
+.scroll-slide img {
+	height: 480px;
+	width: auto;
+}
 
 /* Prev/next */
 
