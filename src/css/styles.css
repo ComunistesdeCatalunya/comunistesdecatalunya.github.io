@@ -4621,6 +4621,7 @@ a[class*='depth'],
 }
 [class*='sticky'] {
 	position: sticky; 
+	position: -webkit-sticky; 
 	top: 0;
 	z-index: 10;
 }
