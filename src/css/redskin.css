@@ -18,6 +18,9 @@
 	background-position: 10% 0;
 }
 
+.header-banner {
+	background-size: cover !important;
+}
 .header-banner h1 {
 	font-size: 6em;
 }
