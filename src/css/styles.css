@@ -4619,6 +4619,11 @@ a[class*='depth'],
 	position: absolute;
 	z-index: 100;
 }
+[class*='sticky'] {
+	position: sticky; 
+	top: 0;
+	z-index: 10;
+}
 [class*='persist'],
 .fixed {
 	position: fixed;
@@ -4673,20 +4678,24 @@ a[class*='depth'],
 .persist {
 	top: 0px;
 }
-.persist-1 {
+.persist-1,
+.sticky-1 {
 	top: 1em;
 }
-.persist-2 {
+.persist-2,
+.sticky-2 {
 	top: 2em;
 }
-.persist-3 {
+.persist-3,
+.sticky-3 {
 	top: 3em;
 }
 .z-top {
 	z-index: 999;
 }
 @media (max-width: 767px) {
-	.persist-relative {
+	.persist-relative,
+	.sticky-relative {
 		position: relative;
 		margin-bottom: 1em; 
 	}
