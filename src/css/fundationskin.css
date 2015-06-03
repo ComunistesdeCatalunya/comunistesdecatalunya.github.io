@@ -1,4 +1,4 @@
-/* Realskin */
+/* Fundationskin */
 
 /* header */
 
@@ -92,18 +92,10 @@ main {
 }
 .post-excerpt img {
 	border: thin solid #ddd;
-	float: right;
 	height: 8em;
 	margin: .5em;
 	object-fit: cover;
 	object-position: center;
-	width: 8em;
-}
-.post:first-child .post-excerpt img,
-.post .post-excerpt img.poster {
-	float: none;
-	height: auto;
-	margin: 0;
 	width: 100%;
 }
 .article-body {

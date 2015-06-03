@@ -77,14 +77,13 @@
 				<div class="cell-6 pushed-3">
 					<Blogger>
 						<article class="post" id="<$BlogItemNumber$>">
-							<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-							<h6 class="article-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
-							<div class="article-lead">
-								<$BlogItemBody$>
-							</div>
+							<h3 class="post-title"><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+							<h6 class="post-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6>
+							<div class="post-excerpt"><$BlogItemBody$></div>
 						</article>
 					</Blogger>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
+					<hr>
 				</div>
 				<hr class="no-margin">
 			</div>
@@ -118,7 +117,7 @@
 				</div>
 				<div class="cell-8">
 					<Blogger>
-						<div id="article-body" class="">
+						<div id="article-body" class="article-body">
 							<$BlogItemBody$>
 						</div>
 						<hr>
