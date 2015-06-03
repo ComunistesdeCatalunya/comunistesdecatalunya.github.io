@@ -2,48 +2,53 @@
 
 /* header */
 
-.icn-menu {
-	background-image: url('http://codi.comunistes.cat/src/png/iching-heaven.png');
-	background-size: 1.6em;
-	background-position: center;
-	background-repeat: no-repeat;
-	display: block;
-	margin: auto;
-	height: 2em;
-	width: 2em;
+#blog-header {
+	padding: 0;
 }
 #blog-header h1 {
-	font-size: 2em;
-	margin-top: .4em;
+	font-size: 5em;
+	line-height: .5em;
+	margin-bottom: 0;
 }
-.form-google {
-	margin-top: 1.1em;
-	position: absolute;
+#blog-header .lead {
+	font-size: .8em;
+	margin: .75em auto;
 }
-.form-google input {
-	border-radius: 1em;
-	height: 2em;
-	padding: 0 1em;
-	width: 2em;
+
+@media (max-width: 768px) {
+	#article-header h1 {
+		padding: 1em;
+	}
 }
-.form-google .terms {
-	background-image: url('http://codi.comunistes.cat/src/png/search.png');
-	background-size: 1.5em;
-	background-position: top center;
-	background-repeat: no-repeat;
-	border: none;
+
+@media (max-width: 481px) {
+	#blog-header h1 {
+		font-size: 4em;
+	}
+	#article-header h1 {
+		padding: 1em;
+	}
 }
-.form-google .terms:focus{
-	background-image: none;
-	border: thin solid #999;
-	float: left;
-	width: 80%;
+
+/* Menu */
+
+#blog-menu {
+
 }
-.form-google [type='submit'] {
+.form-search {
+	margin-right: 1em;
+}
+.form-search input {
+	border: thin solid #dddddd;
+	font-weight: 200;
+	padding: .25em 0;
+	text-align: center;
+}
+.form-search [type='submit'] {
 	display: none;
 }
-.form-google .terms:focus + [type='submit'] {
-	display: block;
+.form-search .terms:focus+[type='submit'] {
+	display: inline;
 }
 
 /* Main */ 
@@ -56,40 +61,75 @@ main {
 
 .post {
 	border: none;
-	border-bottom: thin solid #999;
+	border-bottom: thin solid #cccccc;
 	padding: 1em 1em 2em;
 }
-.post-title {
-	font-weight: 400;
-	letter-spacing: .02em;
+.post-title, 
+.article-title {
+	border-left: .5em solid transparent;
+	font-weight: 200;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
+	margin-left: -.75em; 
+	padding: 0 0 0 .25em;
 }
-.post-date {
+.post-title:hover {
+	border-left: .5em solid #dd0000;
+}
+.post-date,
+.article-date {
 	color: #999;
 	font-size: .8em;
 	font-weight: 300;
+	margin-right: 1em;
+}
+.post-date {
 	text-align: right;
 }
 .post-excerpt {
 	margin-top: 1em;
 }
 .post-excerpt img {
-	border: thin solid transparent;
+	border: thin solid #ddd;
 	float: right;
 	height: 8em;
-	margin: 0 .5em 0 .5em;
+	margin: .5em;
 	object-fit: cover;
 	object-position: center;
 	width: 8em;
 }
-.post-item img {
-	border: thin solid transparent;
+.post:first-child .post-excerpt img,
+.post .post-excerpt img.poster {
+	float: none;
+	height: auto;
+	margin: 0;
+	width: 100%;
+}
+.article-body {
+	text-align: justify;
+}
+.article-body img {
+	border: thin solid #ddd;
 	display: block;
 	margin: 0 auto 1em;
+	width: auto;
+	max-width: 98%;
 }
-
-.article-title {
-	font-weight: bold;  
-	font-weight: 500;  
+.post-excerpt a,
+.article-body a {
+	color: #3AB16C !important;
+}
+.post-excerpt a[href*='jpg'] {
+	pointer-events: none;
+}
+.post-excerpt a:hover,
+.article-body a:hover {
+	text-decoration: underline overline !important;
+}
+.post-excerpt a:visited,
+.article-body a:visited {
+	color: #dd0000 !important;
 }
 
 /* Blogger labels */
@@ -110,9 +150,8 @@ main {
 	margin: 16px;
 }
 .blogger-labels a {
-	background: #666;
-	border-radius: .5em;
-	color: #ffffff !important;
+	border: thin solid currentColor;
+	border-radius: 1em;
 	font-size: 16px;
 	margin: 0 .25em;
 	padding: .25em 1em;
@@ -123,6 +162,7 @@ main {
 }
 .blogger-labels a:hover {
 	background: #dd0000;
+	color: #fff !important;
 }
 .post .blogger-labels {
 	display: none;
@@ -172,14 +212,6 @@ main {
 	width: 100% !important;
 }
 
-/* Responsive hacks */
-
-@media (max-width: 768px) {
-	footer {
-		text-align: center;
-	}
-}
-
 /* Prev/next */
 
 .prev-next,
@@ -204,10 +236,10 @@ main {
 	visibility: hidden;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	left: 2em; right: auto;
+	left: 0; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2) {
-	right: 2em; left: auto;
+	right: 0; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
@@ -225,3 +257,4 @@ main {
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
 	content: '>';
 }
+

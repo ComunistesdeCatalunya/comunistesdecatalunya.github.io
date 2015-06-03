@@ -241,7 +241,7 @@ $(document).ready(function () {
 		snippet: true,
 		limit: 1
 	});	
-	$('#feed-rvalls').rssfeed('http://www.albasud.org/rss.php?lan=es',{
+	$('#feed-rvalls').rssfeed('http://www.albasud.org/rss.php?lan=ca',{
 		snippet: true,
 		limit: 1
 	});	
