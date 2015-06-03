@@ -92,7 +92,7 @@ main {
 }
 .post-excerpt img {
 	border: thin solid #ddd;
-	height: 15em;
+	height: auto;
 	margin: .5em;
 	object-fit: cover;
 	object-position: center;
