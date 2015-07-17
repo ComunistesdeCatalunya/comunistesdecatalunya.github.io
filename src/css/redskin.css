@@ -91,6 +91,9 @@ article.post {
 	overflow: hidden;
 	width: 8em;
 }
+.post a[href*='jpg'] {
+	pointer-events: none;
+}
 .post-item img {
 	border: thin solid transparent;
 	display: block;
