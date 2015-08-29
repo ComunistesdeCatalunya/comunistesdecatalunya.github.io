@@ -281,9 +281,13 @@ article.post {
 	bottom: 0px !important;
 }
 #cookieChoiceInfo .cookie-choices-text {
-	font-size: 12px !important;
+	color: #fff;
+	font-size: 14px !important;
 	line-height: 1em !important;
 }
 .cookie-choices-button {
+	border: thin solid #fff;
+	border-radius: 24px !important;
 	font-size: 10px !important;
+	padding: 8px !important;
 }
