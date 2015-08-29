@@ -272,3 +272,18 @@ article.post {
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
 	content: '>';
 }
+
+/* Cookies info */
+
+#cookieChoiceInfo {
+	background-color: rgba(0,0,0,0.5) !important;
+	top: auto !important;
+	bottom: 0px !important;
+}
+#cookieChoiceInfo .cookie-choices-text {
+	font-size: 12px !important;
+	line-height: 1em !important;
+}
+.cookie-choices-button {
+	font-size: 10px !important;
+}

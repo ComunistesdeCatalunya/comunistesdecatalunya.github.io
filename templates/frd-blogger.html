@@ -50,7 +50,6 @@
 	<!-- Page content -->
 	<div class="page techno" id="page">
 	
-		<MainOrArchivePage>
 		<header id="page-header" class="">
 			<div class="content">
 				<div class="cell-3 universe">
@@ -71,7 +70,8 @@
 				<hr class="no-margin">
 			</div>
 		</header>
-		
+	
+		<MainOrArchivePage>
 		<main id="main" class="anm-fadeIn">
 			<div class="content">
 				<div class="cell-6 pushed-3">
@@ -105,17 +105,19 @@
 		</header>
 		<main id="article-content" class="">
 			<div class="content">
-				<div class="cell-2 hidden-phone">
+				<div class="cell-3 hidden-phone">
 					<aside class="aside-tools base">
-						<h2 class="universe thin"><small>Segueix-nos</small></h2>
+						<h2 class="universe thin"><small>Comparteix</small></h2>
 						<div class="button-centered s">
-							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
-							<a href="http://www.twitter.com/Revolucio_Demos" class="button-icon circled lines soft-blue" target="blank" title="Segueix-nos a Twitter"> Tw </a> <br class="hidden-phone">
-							<a href="http://www.facebook.com/RevolucioDemocratica" class="button-icon circled lines blue" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+							<Blogger>
+								<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> <br>
+								<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a> <br>
+								<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon lines red" title="Comparteix a Google +">G+</a>
+							</Blogger>
 						</div>
 					</aside>
 				</div>
-				<div class="cell-8">
+				<div class="cell-6">
 					<Blogger>
 						<div id="article-body" class="article-body">
 							<$BlogItemBody$>
@@ -144,24 +146,14 @@
 						</BlogItemCommentsEnabled>
 					</Blogger>
 				</div>
-				<div class="cell-2">
-					<aside class="aside-tools base">
-						<h2 class="universe thin"><small>Comparteix</small></h2>
-						<div class="button-centered s">
-							<Blogger>
-								<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> <br>
-								<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon lines blue" title="Comparteix a Facebook">Fb</a> <br>
-								<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon lines red" title="Comparteix a Google +">G+</a>
-							</Blogger>
-						</div>
-					</aside>
+				<div class="cell-3">
 					<aside class="aside-tools base">
 						<h2 class="universe thin"><small>Anteriors</small></h2>
-						<nav><BloggerPreviousItems>
-							<ul>
+						<BloggerPreviousItems>
+							<ul class="panel">
 								<li><a href="<$BlogItemPermalinkURL$>" title="<$BlogItemTitle$>"><$BlogPreviousItemTitle$></a></li>
 							</ul>
-						</BloggerPreviousItems></nav>
+						</BloggerPreviousItems>
 					</aside>
 				</div>
 				<hr>
