@@ -29,7 +29,7 @@
 }
 @media (max-width: 767px) {
 	.header-banner h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	.header-banner h2 {
 		font-size: 2em;
@@ -40,7 +40,7 @@
 }
 @media (max-width: 481px) {
 	.header-banner h1 {
-		font-size: 3em;
+		font-size: 1.6em;
 	}
 	.header-banner h2 {
 		font-size: 1.1em;
