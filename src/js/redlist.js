@@ -253,35 +253,35 @@ $(document).ready(function () {
 	// Feeds Realitat
 	
 	$('#feed-realitat').rssfeed('http://bloc.realitat.cat/feeds/posts/default',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-editorial').rssfeed('http://bloc.realitat.cat/feeds/posts/default/-/Editorial',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-local').rssfeed('http://bloc.realitat.cat/feeds/posts/default/-/Local',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-nacional').rssfeed('http://bloc.realitat.cat/feeds/posts/default/-/Nacional',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-internacional').rssfeed('http://bloc.realitat.cat/feeds/posts/default/-/Internacional',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-historia').rssfeed('http://bloc.realitat.cat/feeds/posts/default/-/Història',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-coneixement').rssfeed('http://bloc.realitat.cat/feeds/posts/default/-/Coneixement',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	$('#feed-realitat-lesarrels').rssfeed('http://miquelangelsoria.realitat.cat/feeds/posts/default',{
-		snippet: true,
+		snippet: false,
 		limit: 1
 	});
 	

@@ -195,9 +195,7 @@ article.post {
 	display: none
 }
 .feed-condensed article img {
-	float: left;
-	margin: .25em 1em .25em .25em;
-	width: 50%;
+	display: block;
 }
 .feed-headlines .prose {
 	display: none;
