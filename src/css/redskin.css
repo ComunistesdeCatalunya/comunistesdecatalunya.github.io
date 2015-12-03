@@ -155,7 +155,7 @@ article.post {
 /* Feeds */
 
 [class*='feed'] {
-	padding: 0 .5em;
+
 }
 #container {}
 #header {}
@@ -166,8 +166,8 @@ article.post {
 #header .feed_title a:active {}
 #content {}
 #content .feed_item {}
-#content .feed_item_title {}
-#content .feed_item_title a:link {}
+#content .feed_item_title {font-size: 2em; line-height: 1.6em;}
+#content .feed_item_title a:link {text-decoration: none;}
 #content .feed_item_title a:visited {}
 #content .feed_item_title a:hover {}
 #content .feed_item_title a:active {}
@@ -180,7 +180,7 @@ article.post {
 #content a:hover.feed_item_link_anchor {}
 #content a:active.feed_item_link_anchor {}
 #content .feed_item_description {}
-#content .feed_item_thumbnail {}
+#content .feed_item_thumbnail {width: 100%; margin: 0 auto; }
 #content .feed_item_clear {}
 #footer {}
 
