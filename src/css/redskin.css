@@ -157,7 +157,7 @@ article.post {
 [class*='feed'] {
 
 }
-#container {}
+#container {font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;}
 #header {}
 #header .feed_title {}
 #header .feed_title a:link {}
@@ -167,7 +167,7 @@ article.post {
 #content {}
 #content .feed_item {}
 #content .feed_item_title {font-size: 2em; line-height: 1.6em;}
-#content .feed_item_title a:link {text-decoration: none;}
+#content .feed_item_title a:link {color: #ee0000;text-decoration: none;}
 #content .feed_item_title a:visited {}
 #content .feed_item_title a:hover {}
 #content .feed_item_title a:active {}
@@ -180,7 +180,7 @@ article.post {
 #content a:hover.feed_item_link_anchor {}
 #content a:active.feed_item_link_anchor {}
 #content .feed_item_description {}
-#content .feed_item_thumbnail {width: 100%; margin: 0 auto; }
+#content .feed_item_thumbnail {max-width: 100%; margin: 0 auto; }
 #content .feed_item_clear {}
 #footer {}
 
