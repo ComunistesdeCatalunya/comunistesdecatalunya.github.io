@@ -187,6 +187,7 @@ article.post {
 	position: absolute;
 	left: 0;
 	right: 0;
+	margin: em 0 1em;
 	width: 100%;
 }
 .prev-next .blog-paging-control-container .blog-paging-control,
@@ -204,19 +205,19 @@ article.post {
 	visibility: hidden;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1) {
-	left: 0; right: auto;
+	left: 1em; right: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2),
 .prev-next .blog-paging-control-container .blog-paging-control:only-child {
-	right: 0; left: auto;
+	right: .5em; left: auto;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-	border: thick solid #ffffff;
+	border: .2em solid #ffffff;
 	border-radius: 50%;
 	color: #ffffff;
 	display: block;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	font-weight: bold;
 	height: 2em;
 	width: 2em;
