@@ -117,7 +117,7 @@
 				</div>
 				<div class="cell-8">
 					<Blogger>
-						<article class="post" id="<$BlogItemNumber$>">
+						<article class="post paper" id="<$BlogItemNumber$>">
 							<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 							<h6 class="article-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
 							<div class="article-lead">
@@ -152,18 +152,14 @@
 						</p>
 					</section>
 				</div>
-				<div class="cell-2">
+				<div class="cell-2 hidden-phone">
 					<h5 class="thin universe anm-fadeIn delay-3000">Comparteix</h5>
 					<div class="button-centered">
 							<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon flat soft-blue anm-moveFromRightFade delay-2000" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
 							<a href="http://www.facebook.com/sharer.php?u=<$BlogURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue anm-moveFromRightFade delay-2000" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
 							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogURL$>" class="button-icon flat red anm-moveFromRightFade delay-2000" title="Comparteix a Google +">G+</a>
 					</div>
-					<div class="button-centered visible-phone">
-						<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
-						<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
-						<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
-					</div>
+					<hr class="lines soft-grey anm-fadeIn delay-3000">
 					<h5 class="thin universe anm-fadeIn delay-3000">Tradueix</h5>
 					<div class="button-centered">
 						<a class="button-icon flat asphalt anm-moveFromRightFade delay-2000" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u=<$BlogUrl$>" target="blank" title="Translate with Google Translate">Idioma</a>
@@ -232,7 +228,7 @@
 						</BlogItemCommentsEnabled>
 					</Blogger>
 				</div>
-				<div class="cell-2">
+				<div class="cell-2 hidden-phone">
 					<h5 class="thin universe anm-fadeIn delay-3000">Comparteix</h5>
 					<div class="button-centered">
 						<Blogger>
@@ -241,22 +237,48 @@
 							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red anm-moveFromRightFade delay-2000" title="Comparteix a Google +">G+</a>
 						</Blogger>
 					</div>
+					<hr class="lines soft-grey anm-fadeIn delay-3000">
 					<h5 class="thin universe anm-fadeIn delay-3000">Tradueix</h5>
 					<div class="button-centered">
 						<Blogger>
 							<a class="button-icon flat asphalt anm-moveFromRightFade delay-2000" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u=<$BlogItemPermalinkURL$>" target="blank" title="Translate with Google Translate">Idioma</a>
 						</Blogger>
 					</div>				
-					<div class="button-centered visible-phone">
-						<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
-						<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
-						<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
-					</div>
 				</div>
 				<hr>
 			</div>
 		</main>
 		</ItemPage>
+		
+		<section class="visible-phone">
+			<div class="button-centered visible-phone">
+			<h5 class="thin universe anm-fadeIn delay-3000">Participa</h5>
+				<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled flat green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
+				<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled flat orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
+				<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled flat red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
+				<MainOrArchivePage>
+				<h5 class="thin universe anm-fadeIn delay-3000">Comparteix</h5>
+				<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon flat soft-blue anm-moveFromRightFade delay-2000" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
+				<a href="http://www.facebook.com/sharer.php?u=<$BlogURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue anm-moveFromRightFade delay-2000" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
+				<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogURL$>" class="button-icon flat red anm-moveFromRightFade delay-2000" title="Comparteix a Google +">G+</a>
+				<hr class="lines soft-grey anm-fadeIn delay-3000">
+				<h5 class="thin universe anm-fadeIn delay-3000">Tradueix</h5>
+				<a class="button-icon flat asphalt anm-moveFromRightFade delay-2000" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u=<$BlogUrl$>" target="blank" title="Translate with Google Translate">Idioma</a>
+				</MainOrArchivePage>
+				<ItemPage>
+				<h5 class="thin universe anm-fadeIn delay-3000">Comparteix</h5>
+				<Blogger>
+					<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon flat soft-blue anm-moveFromRightFade delay-2000" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
+					<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon flat blue anm-moveFromRightFade delay-2000" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
+					<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon flat red anm-moveFromRightFade delay-2000" title="Comparteix a Google +">G+</a>
+				</Blogger>
+				<h5 class="thin universe anm-fadeIn delay-3000">Tradueix</h5>
+				<Blogger>
+					<a class="button-icon flat asphalt anm-moveFromRightFade delay-2000" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u=<$BlogItemPermalinkURL$>" target="blank" title="Translate with Google Translate">Idioma</a>
+				</Blogger>
+				</ItemPage>
+			</div>
+		</section>
 		
 		<footer id="footer-social" class="flat hard-grey">
 			<div class="content s">
