@@ -13,6 +13,10 @@
 	background-image: url('../../logo/logocomunistes-senyera-red.png');
 	background-repeat: no-repeat;
 }
+.bg-ciber {
+	background-image: url('../../logo/logocomunistes-ciberguerrilla.png');
+	background-repeat: no-repeat;
+}
 .header-bg {
 	background-size: 20%;
 	background-position: 10% 0;
