@@ -81,8 +81,10 @@ article.post {
 	}
 }
 .post h6 {
-	border-top: thin solid #ddd;
-	border-bottom: thin solid #ddd;
+	border: thin solid #ddd;
+	border: thin solid rgba(0,0,0,.2);
+	border-left: none;
+	border-right: none;
 }
 .post, .post-item {
 	background: #ffffff;
