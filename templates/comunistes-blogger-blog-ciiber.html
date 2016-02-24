@@ -84,37 +84,33 @@
 		<MainOrArchivePage>
 		<header id="page-header" class="gloom green">
 			<div class="content">
-				<img class="cell-6 anm-flash slow" src="http://codi.comunistes.cat/logo/bannerciberguerrilla.png" alt="Ciberguerrilla"><hr>
+				<img class="cell-6 anm-flash slow" src="http://codi.comunistes.cat/logo/bannerciberguerrilla.png" alt="Ciberguerrilla"><hr class="no-margin">
 				<h1 class="closed anm-scaleUpDown delay-700"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
 				<p class="closed anm-moveFromBottomFade delay-800"><$BlogDescription$></p>
 			</div>
 		</header>
 		<nav class="nav-inline gloom green anm-fadeIn delay-2000 truncate">
 			<div class="content">
-				<a href="<$BlogUrl$>" title="Veure tot l'arxiu"><$BlogTitle$></a>
-				<a href="<$BlogUrl$>search/label/Campanyes" title="Campanyes comunistes">Campanyes</a>
-				<a href="<$BlogUrl$>search/label/Campanyes" title="Campanyes comunistes">Manual</a>
+				<div class="cell-6">
+					<a href="<$BlogUrl$>" title="Veure tot l'arxiu"><$BlogTitle$></a>
+					<a href="<$BlogUrl$>search/label/Campanyes" title="Campanyes comunistes">Campanyes</a>
+					<a href="<$BlogUrl$>search/label/Campanyes" title="Campanyes comunistes">Manual</a>
+				</div>
+				<div class="cell-6 reverse hidden-phone">
+					<a href="http://bloc.comunistes.cat/feeds/posts/default" class="button-icon xs circled gloom orange anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos amb RSS"> RSS </a>
+					<a href="http://www.twitter.com/comunistes" class="button-icon xs circled gloom soft-blue anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos a Twitter"> Tw </a>
+					<a href="https://plus.google.com/+ComunistesdeCatalunya" class="button-icon xs circled gloom soft-granate anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos a Google +"> G+ </a>
+					<a href="http://www.facebook.com/comunistesdecatalunya" class="button-icon xs circled gloom blue anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos a Facebook"> Fb </a>
+					<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon xs circled gloom green anm-moveFromLeftFade delay-2000" title="Sol·licita'ns o envia'ns informació"> Info </a>
+					<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon xs circled gloom orange anm-moveFromLeftFade delay-2000" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
+					<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon xs circled gloom red anm-moveFromLeftFade delay-2000" title="Milita amb nosaltres"> Milita </a>
+				</div>
+				<hr class="no-margin">
 			</div>
 		</nav>
 		<main id="main" class="main-ciber anm-fadeIn delay-2000">
-			<div class="content">			
-				<div class="cell-2 hidden-phone">
-					<h5 class="thin universe anm-fadeIn delay-3000">Segueix-nos</h5>
-					<div class="button-centered">
-						<a href="http://bloc.comunistes.cat/feeds/posts/default" class="button-icon circled gloom orange anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos amb RSS"> RSS </a><br>
-						<a href="http://www.twitter.com/comunistes" class="button-icon circled gloom soft-blue anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos a Twitter"> Tw </a><br>
-						<a href="https://plus.google.com/+ComunistesdeCatalunya" class="button-icon circled gloom soft-granate anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos a Google +"> G+ </a><br>
-						<a href="http://www.facebook.com/comunistesdecatalunya" class="button-icon circled gloom blue anm-moveFromLeftFade delay-2000" target="blank" title="Segueix-nos a Facebook"> Fb </a>
-					</div>
-					<hr class="lines soft-grey anm-fadeIn delay-3000">
-					<h5 class="thin universe anm-fadeIn delay-3000">Participa</h5>
-					<div class="button-centered">
-						<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled gloom green anm-moveFromLeftFade delay-2000" title="Sol·licita'ns o envia'ns informació"> Info </a><br>
-						<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled gloom orange anm-moveFromLeftFade delay-2000" title="Col·labora amb Comunistes de Catalunya"> Actua </a><br>
-						<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled gloom red anm-moveFromLeftFade delay-2000" title="Milita amb nosaltres"> Milita </a>
-					</div>
-				</div>
-				<div class="cell-8">
+			<div class="content">
+				<div class="cell-8 pushed-2">
 					<Blogger>
 						<article class="post" id="<$BlogItemNumber$>">
 							<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
@@ -127,19 +123,6 @@
 					<h4 class="universe">Més articles</h4>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
-				</div>
-				<div class="cell-2 hidden-phone">
-					<h5 class="thin universe anm-fadeIn delay-3000">Comparteix</h5>
-					<div class="button-centered">
-							<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon gloom soft-blue anm-moveFromRightFade delay-2000" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
-							<a href="http://www.facebook.com/sharer.php?u=<$BlogURL$>&t=<$BlogItemTitle$>" class="button-icon gloom blue anm-moveFromRightFade delay-2000" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogURL$>" class="button-icon gloom red anm-moveFromRightFade delay-2000" title="Comparteix a Google +">G+</a>
-					</div>
-					<hr class="lines soft-grey anm-fadeIn delay-3000">
-					<h5 class="thin universe anm-fadeIn delay-3000">Tradueix</h5>
-					<div class="button-centered">
-						<a class="button-icon gloom asphalt anm-moveFromRightFade delay-2000" href="http://translate.google.es/translate?hl=es&sl=auto&tl=es&u=<$BlogUrl$>" target="blank" title="Translate with Google Translate">Idioma</a>
-					</div>
 				</div>
 				<hr>
 			</div>

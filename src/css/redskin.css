@@ -116,8 +116,12 @@ article.post {
 .main-ciber,
 .main-ciber .post {
 	background-color: #111;
-	border-color: #eee;
+	border: none;
 	color: #eee;
+	color: rgba(180,255,180,.8);
+}
+.main-ciber .post {
+	border-top: 3px solid rgba(180,255,180,.8);
 }
 
 /* Blogger labels */
