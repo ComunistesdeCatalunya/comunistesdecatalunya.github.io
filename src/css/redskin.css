@@ -21,10 +21,6 @@
 	background-size: 20%;
 	background-position: 10% 0;
 }
-.main-ciber {
-	background-color: #111;
-	color: #eee;
-}
 #header {
 	padding: .8em 0 .2em;
 }
@@ -113,6 +109,15 @@ article.post {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
+}
+
+/* Ciber version */
+
+.main-ciber,
+.main-ciber .post {
+	background-color: #111;
+	border-color: #eee;
+	color: #eee;
 }
 
 /* Blogger labels */
