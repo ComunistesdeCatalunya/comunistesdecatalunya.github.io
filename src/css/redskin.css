@@ -21,6 +21,10 @@
 	background-size: 20%;
 	background-position: 10% 0;
 }
+.main-ciber {
+	background-color: #111;
+	color: #eee;
+}
 #header {
 	padding: .8em 0 .2em;
 }
