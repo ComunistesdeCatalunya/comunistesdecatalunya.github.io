@@ -112,8 +112,8 @@ article.post {
 	display: block;
 	margin: 0 auto 1em;
 }
-.article-thumb img {
-	pointer-events: none;
+.gallery article .article-thumb a img {
+	pointer-events: none !important;
 }
 
 /* Ciber version */
