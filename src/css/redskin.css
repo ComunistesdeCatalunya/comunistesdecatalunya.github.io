@@ -107,6 +107,9 @@ article.post {
 	width: 8em;
 	pointer-events: none;
 }
+.gallery article img {
+	pointer-events: none;
+}
 .post-item img {
 	border: thin solid transparent;
 	display: block;
