@@ -107,13 +107,13 @@ article.post {
 	width: 8em;
 	pointer-events: none;
 }
-.gallery article img {
-	pointer-events: none;
-}
 .post-item img {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
+}
+.gallery article img {
+	pointer-events: none;
 }
 
 /* Ciber version */
