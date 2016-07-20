@@ -112,7 +112,7 @@ article.post {
 	display: block;
 	margin: 0 auto 1em;
 }
-.gallery article .article-thumb a img {
+.gallery article .article-thumb img {
 	pointer-events: none !important;
 }
 
