@@ -81,10 +81,9 @@ article.post {
 	}
 }
 .post h6 {
-	border: thin solid #ddd;
-	border: thin solid rgba(0,0,0,.2);
-	border-left: none;
-	border-right: none;
+	border-bottom: thin solid #ddd;
+	border-bottom: thin solid rgba(0,0,0,.25);
+	padding: .25em;
 }
 .post, .post-item {
 	background: #ffffff;
@@ -107,17 +106,66 @@ article.post {
 	width: 8em;
 	pointer-events: none;
 }
+/* Special post on Main page (Neus Catala) */ 
+.post-special-content img {
+	border-radius: 0;
+	display: block;
+	float: none;
+	height: 12em;
+	margin: .5em auto;
+	object-fit: cover;
+	object-position: top;
+	overflow: hidden;
+	width: 98%;
+	pointer-events: none;
+}
 .post-item img {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
 }
+.post-excerpt a:last-of-type,
+.post-special-content a:last-of-type {
+	background-color: #3AB16C;
+	color: #fff;
+	display: block;
+	height: 2.4em;
+	margin: 1em auto 0;
+	overflow: hidden;
+	padding: .5em 1em;
+	text-decoration: none;
+	text-overflow: truncate;
+	width: 4em;
+}
+.post-special-content a:last-of-type {
+	background-color: #8844a5;
+}
+.post-excerpt a:last-of-type:visited {
+	background-color: #dd0000;
+	color: #fff !important;
+}
+.post-special-content a:last-of-type:visited {
+	background-color: #dd0000;
+	color: #fff !important;
+}
 .gallery article .article-thumb img {
 	pointer-events: none !important;
 }
+/* Bibliography variation */
+.bibliography article img {
+	border-radius: 0;
+	display: block;
+	float: left;
+	height: 12em;
+	margin: 0;
+	object-fit: cover;
+	object-position: top;
+	overflow: hidden;
+	width: 20%;
+	pointer-events: none;
+}
 
 /* Ciber version */
-
 .main-ciber,
 .main-ciber .post {
 	background-color: #111;
@@ -268,7 +316,7 @@ article.post {
 	visibility: visible;
 }
 .pagination a:nth-child(1):after {
-	content: '< SegÃ¼ent';
+	content: '< Seg¸ent';
 }
 .pagination a:nth-child(2):after,
 .pagination a:only-child:after {

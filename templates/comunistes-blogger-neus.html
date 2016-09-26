@@ -80,43 +80,47 @@
 			</div>
 		</header>
 		<hr class="no-margin">
-		<nav class="base nav-inline paper">
+		<MainOrArchivePage>		
+		<header id="page-header" class="elegant flat violet anm-fadeIn">
 			<div class="content universe">
-				<a href="http://comunistes.cat/neuscatala" title="Pàgina oficial de Neus Català">Neus Català</a>
-				<a href="<$BlogUrl$>" title="Bloc de Neus Català">Bloc de la Neus</a>
-			</div>
-		</nav>
-		
-		<MainOrArchivePage>
-		<header id="page-header" class="elegant base">
-			<div class="content universe">
-				<h1 class="anm-zoomInDown delay-1000"><a class="icon xl" href="<$BlogUrl$>" title="<$BlogTitle$>"><img src="http://comunistes.cat/neuscatala/img/pin-neuscatala-thumb.png" alt="<$BlogTitle$>"></a><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
-				<p class="anm-moveFromBottomFade delay-2000"><$BlogDescription$></p>
+				<h1 class="anm-moveFromLeftFade delay-1000"><a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a></h1>
 			</div>
 		</header>
-		<main id="blog-content" class="elegant anm-fadeIn delay-1000">
+		<main id="blog-content" class="anm-fadeIn delay-1000">
 			<div class="content">
-				<div class="cell-2 hidden-phone">
-					<aside class="aside-tools base">
-						<h2 class="universe thin"><small>Segueix-nos</small></h2>
-						<div class="button-centered s">
-							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
-						</div>
+				<div class="cell-2 hidden-phone sticky-2">
+					<div class="button-centered">
+						<a class="button-profile xl anm-rotateInNewspaper delay-1000" href="http://www.neuscatala.cat" title="Presentació de www.neuscatala.cat"><img src="http://comunistes.cat/neuscatala/img/pin-neuscatala-thumb.png" alt="www.neuscatala.cat"></a>
+					</div>
+					<nav class="anm-fadeIn delay-2000">
+						<ul>
+							<li class="elegant"><b><a href="http://comunistes.cat/neuscatala" title="Pàgina oficial de Neus Català">Neus Català</a></b></li>
+							<li class="elegant"><a href="<$BlogUrl$>" title="Bloc de la Neus Català">Bloc</a></li>
+							<li class="elegant"><a href="<$BlogUrl$>search/label/Seguim la Memòria" title="Memòria d'actes i homenatges a la Neus Català">Seguim la Memòria</a></li>
+							<li class="elegant"><a href="<$BlogUrl$>search/label/Publicacions" title="Publicacions sobre la Neus Català">Publicacions</a></li>
+							<li class="elegant"><a href="http://neuscatala.comunistes.cat/2015/07/el-bloc-de-la-neus.html" title="Informació sobre el bloc de Neus Català">Sobre el bloc</a></li>						
+							<li class="elegant"><a href="https://www.flickr.com/photos/comunistes/albums/72157665774320453" title="Arxiu fotogràfic de la Neus Català a Flickr">Arxiu fotogràfic</a></li>
+						</ul>
+					</nav>
+					<hr>
+					<aside>
+						<a href="http://neuscatala.comunistes.cat/search/label/Any%20Neus%20Catal%C3%A0" title="Actes en el marc de l'Any Neus Català"><img src="http://comunistes.cat/neuscatala/img/iconanyneuscatala.jpg"></a>
 					</aside>
+					<hr>
 				</div>
-				<div class="cell-8">
+				<div class="cell-8 elegant">
 					<Blogger>
 						<article class="post" id="<$BlogItemNumber$>">
 							<h3 class="post-title"><a href="<$BlogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 							<h6 class="post-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></h6>
-							<div class="post-excerpt"><$BlogItemBody$></div>
+							<div class="post-special-content"><$BlogItemBody$></div>
 						</article>
 					</Blogger>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
 				</div>
-				<div class="cell-2">
-					<aside class="aside-tools base">
+				<div class="cell-2 elegant">
+					<aside class="aside-tools unify grey">
 						<h2 class="universe thin"><small>Comparteix</small></h2>
 						<div class="button-centered s">
 							<a href="http://twitter.com/?status=<$BlogURL$>" class="button-icon lines soft-blue" title="Comparteix a Twitter">Tw</a> <br class="hidden-phone">
@@ -124,6 +128,14 @@
 							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogURL$>" class="button-icon lines red" title="Comparteix a Google +">G+</a>
 						</div>
 					</aside>
+					<hr>
+					<aside class="aside-tools unify grey">
+						<h2 class="universe thin"><small>Segueix-nos</small></h2>
+						<div class="button-centered s">
+							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
+						</div>
+					</aside>
+					
 				</div>
 				<hr class="no-margin">
 			</div>
@@ -141,12 +153,24 @@
 				</Blogger>
 			</div>
 		</header>
-		<main id="post" class="elegant anm-fadeIn delay-100">
+		<main id="post" class="anm-fadeIn delay-100">
 			<div class="content">
-				<div class="cell-2 hidden-phone">
-					<a href="http://comunistes.cat/neuscatala/"><img src="http://comunistes.cat/neuscatala/img/pin-neuscatala-thumb.png"></a>
+				<div class="cell-2 hidden-phone sticky-2">
+					<div class="button-centered">
+						<a class="button-profile xl anm-rotateInNewspaper delay-1000" href="http://www.neuscatala.cat" title="Presentació de www.neuscatala.cat"><img src="http://comunistes.cat/neuscatala/img/pin-neuscatala-thumb.png" alt="www.neuscatala.cat"></a>
+					</div>
+					<nav class="anm-fadeIn delay-2000">
+						<ul>
+							<li class="elegant"><b><a href="http://comunistes.cat/neuscatala" title="Pàgina oficial de Neus Català">Neus Català</a></b></li>
+							<li class="elegant"><a href="<$BlogUrl$>" title="Bloc de la Neus Català">Bloc</a></li>
+							<li class="elegant"><a href="<$BlogUrl$>search/label/Seguim la Memòria" title="Memòria d'actes i homenatges a la Neus Català">Seguim la Memòria</a></li>
+							<li class="elegant"><a href="<$BlogUrl$>search/label/Publicacions" title="Publicacions sobre la Neus Català">Publicacions</a></li>
+							<li class="elegant"><a href="http://neuscatala.comunistes.cat/2015/07/el-bloc-de-la-neus.html" title="Informació sobre el bloc de Neus Català">Sobre el bloc</a></li>						
+							<li class="elegant"><a href="https://www.flickr.com/photos/comunistes/albums/72157665774320453" title="Arxiu fotogràfic de la Neus Català a Flickr">Arxiu fotogràfic</a></li>
+						</ul>
+					</nav>
 				</div>
-				<div class="cell-8">
+				<div class="cell-8 elegant">
 					<Blogger>
 						<div class="post-item prose">
 							<$BlogItemBody$>
@@ -173,26 +197,60 @@
 						</BlogItemCommentsEnabled>
 					</Blogger>
 				</div>
-				<div class="cell-2">
-					<h2 class="universe thin"><small>Comparteix</small></h2>
-					<div class="button-centered s">
-						<Blogger>
-							<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon lines soft-blue anm-zoomInRight delay-200" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
-							<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon lines blue anm-zoomInRight delay-300" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
-							<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon lines red anm-zoomInRight delay-400" title="Comparteix a Google +">G+</a>
-						</Blogger>
-					</div>
-				</div>
-				<hr>
-				<div class="button-centered visible-phone">
-					<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled lines green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
-					<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled lines orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
-					<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled lines red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
+				<div class="cell-2 elegant">
+					<aside class="aside-tools unify grey">
+						<h2 class="universe thin"><small>Comparteix</small></h2>
+						<div class="button-centered s">
+							<Blogger>
+								<a href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" class="button-icon lines soft-blue anm-zoomInRight delay-200" title="Comparteix a Twitter">Tw</a><br class="hidden-phone">
+								<a href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" class="button-icon lines blue anm-zoomInRight delay-300" title="Comparteix a Facebook">Fb</a><br class="hidden-phone">
+								<a href="https://plusone.google.com/_/+1/confirm?hl=en&url=<$BlogItemPermalinkURL$>" class="button-icon lines red anm-zoomInRight delay-400" title="Comparteix a Google +">G+</a>
+							</Blogger>
+						</div>
+					</aside>
+					<hr>
+					<aside class="aside-tools unify grey">
+						<h2 class="universe thin"><small>Segueix-nos</small></h2>
+						<div class="button-centered s">
+							<a href="<$BlogUrl$>feeds/posts/default" class="button-icon circled lines orange" target="blank" title="Segueix-nos amb RSS"> RSS </a> <br class="hidden-phone">
+						</div>
+					</aside>
+					
 				</div>
 				<hr>
 			</div>
 		</main>
 		</ItemPage>
+		
+		<div class="container visible-phone">
+			<div class="content">
+				<aside class="unify grey">
+					<div class="button-centered">
+						<a class="button-profile xl anm-rotateInNewspaper delay-1000" href="http://www.neuscatala.cat" title="Presentació de www.neuscatala.cat"><img src="http://comunistes.cat/neuscatala/img/pin-neuscatala-thumb.png" alt="www.neuscatala.cat"></a>
+					</div>
+					<nav class="anm-fadeIn delay-2000">
+						<ul>
+							<li class="elegant"><b><a href="http://comunistes.cat/neuscatala" title="Pàgina oficial de Neus Català">Neus Català</a></b></li>
+							<li class="elegant"><a href="<$BlogUrl$>" title="Bloc de la Neus Català">Bloc</a></li>
+							<li class="elegant"><a href="<$BlogUrl$>search/label/Seguim la Memòria" title="Memòria d'actes i homenatges a la Neus Català">Seguim la Memòria</a></li>
+							<li class="elegant"><a href="<$BlogUrl$>search/label/Publicacions" title="Publicacions sobre la Neus Català">Publicacions</a></li>
+							<li class="elegant"><a href="http://neuscatala.comunistes.cat/2015/07/el-bloc-de-la-neus.html" title="Informació sobre el bloc de Neus Català">Sobre el bloc</a></li>						
+							<li class="elegant"><a href="https://www.flickr.com/photos/comunistes/albums/72157665774320453" title="Arxiu fotogràfic de la Neus Català a Flickr">Arxiu fotogràfic</a></li>
+						</ul>
+					</nav>
+				</aside>
+			</div>
+		</div>
+		
+		<div class="container flat soft-grey">
+			<div class="content">
+				<div class="button-centered">
+					<a href="http://comunistes.cat/organitzacio/info.html" class="button-icon circled plastic green anm-zoomInLeft delay-200" title="Sol·licita'ns o envia'ns informació"> Info </a>
+					<a href="http://comunistes.cat/organitzacio/actua.html" class="button-icon circled plastic orange anm-zoomInDown delay-300" title="Col·labora amb Comunistes de Catalunya"> Actua </a>
+					<a href="http://comunistes.cat/organitzacio/milita.html" class="button-icon circled plastic red anm-zoomInRight delay-400" title="Milita amb nosaltres"> Milita </a>
+				</div>
+			</div>
+		</div>
 		
 		<footer id="footer-social" class="flat hard-grey">
 			<div class="content s">
