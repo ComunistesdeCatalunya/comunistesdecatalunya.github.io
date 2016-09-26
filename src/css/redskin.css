@@ -104,20 +104,22 @@ article.post {
 	object-fit: cover;
 	overflow: hidden;
 	width: 8em;
-	pointer-events: none;
+	pointer-events: none !important;
 }
 /* Special post on Main page (Neus Catala) */ 
 .post-special-content img {
+	border: 4px solid #fefefe;
 	border-radius: 0;
+	box-shadow: 0 0 2px rgba(0,0,0,.5);
 	display: block;
 	float: none;
-	height: 12em;
-	max-height: 12em;
+	height: 14em;
+	max-height: 14em;
 	margin: .5em auto;
 	object-fit: cover;
 	object-position: top;
 	overflow: hidden;
-	width: 98%;
+	width: auto;
 	pointer-events: none;
 }
 .post-item img {
@@ -304,7 +306,7 @@ article.post {
 	visibility: visible;
 }
 .pagination a:nth-child(1):after {
-	content: '< Seg¸ent';
+	content: '< Segent';
 }
 .pagination a:nth-child(2):after,
 .pagination a:only-child:after {
