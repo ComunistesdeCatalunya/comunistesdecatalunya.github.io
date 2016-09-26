@@ -154,7 +154,23 @@ article.post {
 .gallery article .article-thumb img {
 	pointer-events: none !important;
 }
-
+/* Bibliography */
+.bibliography article {
+	border: thick solid #ddd;
+	margin: 1em 0;
+}
+.bibliography aside {
+	background: #eee;
+	box-shadow: inset 0 0 3px rgba(0,0,0,.5);
+}
+.bibliography article img {
+	height: auto;
+	margin: .5em auto;
+	width: 90%;
+	cursor: -webkit-zoom-in; 
+	cursor: -moz-zoom-in;
+	cursor: zoom-in;
+}
 /* Ciber version */
 .main-ciber,
 .main-ciber .post {
