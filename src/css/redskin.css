@@ -152,19 +152,6 @@ article.post {
 .gallery article .article-thumb img {
 	pointer-events: none !important;
 }
-/* Bibliography variation */
-.bibliography article img {
-	border-radius: 0;
-	display: block;
-	float: left;
-	height: 12em;
-	margin: 0;
-	object-fit: cover;
-	object-position: top;
-	overflow: hidden;
-	width: 20%;
-	pointer-events: none;
-}
 
 /* Ciber version */
 .main-ciber,
