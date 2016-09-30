@@ -112,14 +112,16 @@ article.post {
 	border-radius: 0;
 	display: block;
 	float: none;
-	height: 14em;
-	max-height: 14em;
+	height: 18em;
+	max-height: 18em;
 	margin: .5em auto;
 	object-fit: cover;
 	object-position: top;
 	overflow: hidden;
 	width: 100%;
-	pointer-events: none;
+}
+.post-special-content a[href*=flickr] {
+	pointer-events: none !important;
 }
 .post-item img {
 	border: thin solid transparent;
