@@ -119,6 +119,7 @@ article.post {
 	object-position: top;
 	overflow: hidden;
 	width: 100%;
+	pointer-events: none !important;
 }
 .post-special-content a[href*=flickr] {
 	pointer-events: none !important;
