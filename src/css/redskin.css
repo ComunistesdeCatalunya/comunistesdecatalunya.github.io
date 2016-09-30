@@ -126,6 +126,7 @@ article.post {
 	border: thin solid transparent;
 	display: block;
 	margin: 0 auto 1em;
+	height: auto;
 }
 .post-excerpt a:last-of-type,
 .post-special-content a:last-of-type {
@@ -156,8 +157,6 @@ article.post {
 }
 /* Bibliography */
 .bibliography article {
-	border: thin solid #ddd;
-	box-shadow: 0 2px 2px rgba(0,0,0,.5);
 	margin: 0 0 2em;
 }
 .bibliography aside {
@@ -166,9 +165,8 @@ article.post {
 }
 .bibliography img {
 	border: thin solid #aaa;
-	height: auto;
-	margin: .5em auto;
-	width: 90%;
+	margin: 0 auto .5em;
+	width: 80%;
 	cursor: -webkit-zoom-in; 
 	cursor: -moz-zoom-in;
 	cursor: zoom-in;
