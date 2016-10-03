@@ -173,9 +173,6 @@ article.post {
 	cursor: -moz-zoom-in;
 	cursor: zoom-in;
 }
-.bibliography article b {
-	font-style: italic;
-}
 /* Ciber version */
 .main-ciber,
 .main-ciber .post {
