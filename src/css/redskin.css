@@ -159,6 +159,7 @@ article.post {
 }
 /* Bibliography */
 .bibliography article {
+	text-align: left;
 	margin: 0 0 2em;
 }
 .bibliography aside {
