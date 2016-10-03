@@ -167,7 +167,7 @@ article.post {
 }
 .bibliography img {
 	border: thin solid #aaa;
-	margin: 0 auto .5em;
+	margin: 0 auto 4em;
 	width: 80%;
 	cursor: -webkit-zoom-in; 
 	cursor: -moz-zoom-in;
@@ -324,7 +324,7 @@ article.post {
 	visibility: visible;
 }
 .pagination a:nth-child(1):after {
-	content: '< SegŸent';
+	content: '< Posterior';
 }
 .pagination a:nth-child(2):after,
 .pagination a:only-child:after {
