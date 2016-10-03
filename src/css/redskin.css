@@ -173,6 +173,9 @@ article.post {
 	cursor: -moz-zoom-in;
 	cursor: zoom-in;
 }
+.bibliography article b {
+	font-style: italic;
+}
 /* Ciber version */
 .main-ciber,
 .main-ciber .post {
@@ -324,7 +327,7 @@ article.post {
 	visibility: visible;
 }
 .pagination a:nth-child(1):after {
-	content: '< Segent';
+	content: '< SegŸent';
 }
 .pagination a:nth-child(2):after,
 .pagination a:only-child:after {
