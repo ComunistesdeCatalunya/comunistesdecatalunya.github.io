@@ -140,7 +140,7 @@ article.post {
 	overflow: hidden;
 	padding: .5em 1em;
 	text-decoration: none;
-	text-overflow: truncate;
+	text-overflow: ellipsis;
 	width: 4em;
 }
 .post-special-content a:last-of-type {
@@ -167,7 +167,7 @@ article.post {
 }
 .bibliography img {
 	border: thin solid #aaa;
-	margin: 0 auto 2em;
+	margin: 0 auto .5em;
 	width: 80%;
 	cursor: -webkit-zoom-in; 
 	cursor: -moz-zoom-in;
@@ -265,7 +265,7 @@ article.post {
 	position: absolute;
 	left: 0;
 	right: 0;
-	margin: em 0 1em;
+	margin: 0 0 1em;
 	width: 100%;
 }
 .prev-next .blog-paging-control-container .blog-paging-control,
