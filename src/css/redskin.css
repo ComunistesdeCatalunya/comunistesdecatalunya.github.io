@@ -121,7 +121,12 @@ article.post {
 	width: 100%;
 	pointer-events: none !important;
 }
-.post-special-content a[href*=flickr] {
+a[href*="flickr.com"] {
+	cursor: -webkit-zoom-in; 
+	cursor: -moz-zoom-in;
+	cursor: zoom-in;
+}
+.post-special-content a[href*="flickr.com"] {
 	pointer-events: none !important;
 }
 .post-item img {
