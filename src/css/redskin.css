@@ -126,7 +126,9 @@ a[href*="flickr.com"] {
 	cursor: -moz-zoom-in;
 	cursor: zoom-in;
 }
+.post-special-content a img,
 .post-special-content a[href*="flickr.com"] {
+	cursor: default;
 	pointer-events: none !important;
 }
 .post-item img {
