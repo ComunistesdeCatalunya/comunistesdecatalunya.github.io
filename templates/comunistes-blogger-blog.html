@@ -17,6 +17,7 @@
 		<link href="http://codi.comunistes.cat/src/css/styles.css" rel="stylesheet" media="screen">
 		<link href="http://codi.comunistes.cat/src/css/anime.css" rel="stylesheet" media="screen">
 		<link href="http://codi.comunistes.cat/src/css/redskin.css" rel="stylesheet" media="screen">
+		<MainOrArchivePage><style>.fullarticle {display: none;}.fullarticle img {max-width: 100%;}</style></MainOrArchivePage>
 		<!-- Print styles -->
 		<link href="http://codi.comunistes.cat/src/css/print.css" rel="stylesheet" media="print">
 		<!-- If iexplorer :( -->
@@ -115,15 +116,17 @@
 					</div>
 				</div>
 				<div class="cell-8">
-					<Blogger>
-						<article class="post paper" id="<$BlogItemNumber$>">
-							<h3 class="article-title"><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-							<h6 class="article-date"><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
-							<div class="article-lead">
-								<$BlogItemBody$>
-							</div>
-						</article>
-					</Blogger>
+					<div class="articles">
+						<Blogger>
+							<article id="<$BlogItemNumber$>">
+								<h3><a href="<$blogItemPermalinkUrl$>" title="Article: <$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+								<h6><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></h6>
+								<div>
+									<$BlogItemBody$>
+								</div>
+							</article>
+						</Blogger>
+					</div>
 					<h4 class="universe">Més articles</h4>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>

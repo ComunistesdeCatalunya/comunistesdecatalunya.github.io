@@ -1,0 +1,168 @@
+/* Hipertextos print.css */
+/* by Acozar - www.hipertextos.net */
+
+@page {
+  color: transparent;
+  size: A4 portrait;
+  margin: 1.5cm 1cm;
+}
+@page {
+  @bottom-center { 
+    content: counter(page);
+  }
+}
+
+body {
+	background: white;
+	color: #000;
+	font-size: 12pt; 
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	line-height: 1.5em;
+}
+* {
+	background: transparent;
+	border: none !important;
+	clear: both;
+	color: #000;
+	display: block;
+	font-size: 12pt; 
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	word-break: break-word;
+}
+br, hr {
+	margin: 12pt 0 0;
+}
+header, footer {
+	margin: 12pt auto;
+	padding: 12pt 0;
+}
+header {
+	border-bottom: 1pt solid #333 !important;
+}
+footer {
+	border-top: 1pt solid #333 !important;
+}
+h1 { font-size: 32pt; }
+h2 { font-size: 24pt; }
+h3 { font-size: 20pt; }
+h4 { font-size: 16pt; }
+h5 { font-size: 14pt; }
+h6 { font-size: 12pt; }
+p { font-size: 12pt; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	page-break-after: avoid;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+	margin: 0 0 1em;
+}
+a, a:link, a:visited {
+	color: #aa0000;
+	display: inline;
+	font-weight: bold; 
+	text-decoration: underline; 
+}
+img, figure {
+	display: block;
+	margin: 1em auto;
+	width: auto;
+	page-break-before: auto;
+	page-break-after: auto;
+	page-break-inside: avoid;
+}
+.article-body img, .article-body figure {
+	width: 100%;
+}
+header a, footer a {
+	text-decoration: none !important;
+}
+#cookieChoiceInfo,
+.blogger-labels,
+#header,
+#header-site,
+#footer,
+#footer-social,
+#footer-terms,
+button,
+dialog,
+embed,
+form,
+iframe,
+input,
+title,
+nav,
+progress,
+script,
+style,
+.no-js,
+.pagination,
+aside,
+[class*='blogger'],
+[class*='prev'],
+[class*='next'],
+[class*='alert'],
+[class*='button'],
+[class*='dialog'],
+[class*='menu'] {
+	display: none !important;
+}
+pre {
+	border: 1px solid #ddd;
+	display: block;
+	font-size: 9pt;
+	margin: 2%;
+	padding: 2%;
+	width: 92%;
+}
+pre, code {
+	font-family: monospace;
+}
+pre *, code, code *, cite, small, strong,
+i, em, span {
+	display: inline;
+	word-break:break-word;
+}
+table, thead, tr { display: table; width: 100%; page-break-after: avoid; }
+th { border: 1px solid #ddd; display: table-cell; width: auto; }
+
+.slide-wrapper {
+	overflow: auto;
+}
+.slide-page {
+	position: relative;
+	visibility: visible;
+	z-index: 1;
+}
+.icon {
+	display: inline;
+	height: 1em;
+	margin: 0 .5em;
+	width: 1em;
+}
+.verse {
+	text-align: left;
+}
+.reverse {
+	text-align: right;
+}
+.universe {
+	text-align: center;
+}
+.prose {
+	text-align: justify;
+}
