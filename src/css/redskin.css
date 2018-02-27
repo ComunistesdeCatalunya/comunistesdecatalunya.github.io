@@ -167,11 +167,16 @@ a[href*="flickr.com"] {
 }
 /* RSS */
 .rss-box {
-	padding: 0 1em;
+	padding: 0;
 }
 .rss-box article {
 	margin: 0 1% 2.5em;
 	width: 98%;
+}
+.rss-box article h3 {
+	font-size: 1.2em;
+    font-weight: bold;
+	line-height: 1em;
 }
 .rss-box article > div {
 	font-weight: 200;
@@ -186,10 +191,6 @@ a[href*="flickr.com"] {
 	width: 100%;
 	object-fit: cover;
 	object-position: center;
-}
-.rss-box article > strong {
-	display: block;
-	margin: -2.5em -.6em -1.2em 0;
 }
 @media (max-width: 1200px) {
 	.rss-box article div,
