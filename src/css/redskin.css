@@ -170,9 +170,8 @@ a[href*="flickr.com"] {
 	padding: 0 1em;
 }
 .rss-box article {
-	float: left;
 	margin: 0 1% 2.5em;
-	width: 47.9999999999%;
+	width: 98%;
 }
 .rss-box article > div {
 	font-weight: 200;
