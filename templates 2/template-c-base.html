@@ -148,7 +148,7 @@
 			<footer id="page-section">
 				<div>
 					<div class="flex-grid-3">
-						<section class="panel">
+						<section>
 							<h6>Comunistes de Catalunya</h6>
 							<adress class="">
 								<span class="location symbol-gear">carrer Liuva, 39-45, Barcelona</span>  <br>
@@ -158,7 +158,7 @@
 								<span class="vcard symbol-right-hand"><a href="http://comunistes.cat/pages/comunistes.vcard" download="Comunistes de Catalunya" title="Vcard">vCard </a></span>  <br>
 							</adress>
 						</section>
-						<section class="panel">
+						<section>
 							<h6>Menú</h6>
 							<ul>
 								<li><a href="http://www.comunistes.cat" title="www.comunistes.cat">Comunistes.cat</a></li>
@@ -169,7 +169,7 @@
 								<li><a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya">Organització</a></li>
 							</ul>
 						</section>
-						<section class="panel">
+						<section>
 							<h6 class="">Segueix-nos!</h6>
 							<div class="">
 								<em><small><a href="http://bloc.comunistes.cat/feeds/posts/default" target="blank" title="Segueix-nos amb RSS"> RSS </a></small></em>
@@ -208,6 +208,32 @@
 		<!-- Out of page
 		================================================== -->
 		<!-- Fixed navigation -->		
+		<div class="c-button-share-bubble">
+			<input id="share-bubble" name="share-bubble" type="checkbox" hidden>
+			<span>
+				<MainOrArchivePage>
+					<em><a class="th-fb" href="http://www.facebook.com/sharer.php?u=<$BlogURL$>&t=<$BlogItemTitle$>" data-title="a Facebook">Fb</a></em>
+					<em><a class="th-tw" href="http://twitter.com/?status=<$BlogURL$>" data-title="a Twitter">Tw</a></em>
+				</MainOrArchivePage>
+				<!-- <ItemPage>
+				<Blogger>
+					<em><a class="th-fb" href="http://www.facebook.com/sharer.php?u=<$BlogItemPermalinkURL$>&t=<$BlogItemTitle$>" data-title="Comparteix a Facebook">Fb</a></em>
+					<em><a class="th-tw" href="http://twitter.com/?status=<$BlogItemPermalinkURL$>" data-title="Comparteix a Twitter">Tw</a></em>
+				</Blogger>
+				</ItemPage> -->
+			</span>
+			<em><label class="th-share-switcher" for="share-bubble" data-title="Compartir"><img src="" alt="Share"></label></em>
+		</div>		
+		<div class="c-button-theme-bubble">
+			<input id="theme-bubble" name="theme-bubble" type="checkbox" hidden>
+			<span>
+				<em><label class="th-nox" for="theme-nox" data-title="Nox"></label></em>
+				<em><label class="th-ruber" for="theme-ruber" data-title="Ruber"></label></em>
+				<em><label class="th-fulgen" for="theme-fulgen" data-title="Fulgen"></label></em>
+				<em><label class="th-aurora" for="theme-aurora" data-title="Aurora"></label></em>
+			</span>
+			<em><label class="th-themes-switcher" for="theme-bubble" data-title="Visualització"><img src="" alt="Share"></label></em>
+		</div>		
 
 
 		<!-- Scripts

@@ -1,0 +1,305 @@
+/* BCN CSS Screen by Comunistes */
+
+/* Version 1.0 */
+/* General MIT License (MIT) */
+/* Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: */
+/* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software. */
+/* THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. */
+
+
+header {
+	text-align: center;
+}
+
+#page-section {
+	background-color: rgba(0,0,0,.7);
+	color: #ffffff;
+}
+#page-section a {
+	color: #ffffff;
+}
+#page-section ul, #page-section li {
+	list-style: none;
+}
+#page-section em small a {
+	border-radius: 50%;
+	font-size: 0.9em;
+}
+
+/* Responsive hacks */
+
+.mobile {
+	display: none;
+}
+.desktop {
+	display: block;
+}
+@media screen and (max-width: 1024px) {
+	.mobile {
+		display: block;
+	}
+	.desktop {
+		display: none;
+	}
+}
+
+/* Site logo */
+
+.site-logo {
+	height: 56px;
+	margin: -12px;
+	overflow: hidden;
+	width: 56px;
+}
+.site-logo img {
+	height: 100%;
+	margin: 2px;
+	width: 100%;
+}
+.site-logo:hover {
+	border: none;
+}
+.site-logo:hover img {
+	transform: translateX(-40px) translateY(-2px) scale(3);
+}
+
+/* KTR bubble Menu */
+
+.c-button-theme-bubble {
+	position: fixed;
+	bottom: 8px;
+	right: 8px;
+	z-index: 10;
+}
+.c-button-share-bubble {
+	position: fixed;
+	bottom: 8px;
+	left: 8px;
+	z-index: 10;
+}
+.c-button-theme-bubble span {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+.c-button-share-bubble span {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.c-button-theme-bubble em label {
+	padding-bottom: 24px;
+}
+.c-button-share-bubble em label {
+	padding-bottom: 8px;
+}
+.c-button-share-bubble span .th-fb,
+.c-button-share-bubble span .th-tw,
+.c-button-theme-bubble span .th-aurora,
+.c-button-theme-bubble span .th-ruber,
+.c-button-theme-bubble span .th-fulgen,
+.c-button-theme-bubble span .th-nox {
+	background-color: rgba(255,255,255,.9);
+	border: 2px solid rgba(0,0,0,.2);
+	font-size: 24px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: auto;
+	-webkit-transform: scale(0.01) translateX(0px) translateY(0px);
+	-moz-transform: scale(0.01) translateX(0px) translateY(0px);
+	-moz-transform: scale(0.01) translateX(0px) translateY(0px);
+	-o-transform: scale(0.01) translateX(0px) translateY(0px);
+	transform: scale(0.01) translateX(0px) translateY(0px);
+	
+	-webkit-animation-delay: .5s;
+	   -moz-animation-delay: .5s;
+	     -o-animation-delay: .5s;
+			animation-delay: .5s;
+
+	-webkit-transition: transform .5s ease;
+	    -moz-transition: transform .5s ease;
+		-ms-transition: transform .5s ease;
+		 -o-transition: transform .5s ease;
+			transition: transform .5s ease;
+}
+.c-button-share-bubble span .th-fb,
+.c-button-share-bubble span .th-tw {
+	right: auto;
+	left: 0;
+}
+.th-share-switcher:hover:after,
+.th-themes-switcher:hover:after,
+.th-fb:hover:after,
+.th-tw:hover:after,
+.th-aurora:hover:after,
+.th-ruber:hover:after,
+.th-fulgen:hover:after,
+.th-nox:hover:after {
+	background-color: rgba(0,0,0,.9);
+	border: 1px solid rgba(255,255,255,.9);
+	border-radius: 8px;
+	color: #ffffff;
+	content: attr(data-title);
+	cursor: pointer;
+	position: absolute;
+	padding: 0 16px;
+	font-size: 16px;
+	line-height: 48px;
+	height: 48px;
+	min-width: 120px;
+	text-align: center;
+	text-transform: uppercase;
+	left: -190%;
+	right: auto;
+	top: 20%;
+	z-index: 30;
+}
+.th-share-switcher:hover:after,
+.th-fb:hover:after,
+.th-tw:hover:after {
+	left: 120%;
+	right: auto;
+}
+@media screen and (max-width: 600px) {
+	.th-fb:hover:after,
+	.th-tw:hover:after,
+	.th-aurora:hover:after,
+	.th-ruber:hover:after,
+	.th-fulgen:hover:after,
+	.th-nox:hover:after {
+		display: none;
+	}
+}
+@media screen and (max-width: 1024px) {
+	.th-share-switcher:hover:after,
+	.th-fb:hover:after,
+	.th-tw:hover:after {
+		bottom: 10%;
+		right: -300%;
+	}
+	.th-themes-switcher:hover:after,
+	.th-aurora:hover:after,
+	.th-ruber:hover:after,
+	.th-fulgen:hover:after,
+	.th-nox:hover:after {
+		bottom: 10%;
+		left: -300%;
+	}
+	.th-fb,
+	.th-tw {
+		padding-top: 6px;
+	}
+	.c-button-share-bubble em label {
+		padding-top: 6px;
+	}
+}
+.th-fb {
+	background-color: rgba(23,148,227,1) !important;
+	color: #ffffff !important;
+}
+.th-tw {
+	background-color: rgba(209,234,249,1) !important;
+	color: #ffffff !important;
+}
+.th-aurora {
+	background-color: #ffffff;
+}
+.th-ruber {
+	background-color: rgba(248,228,211,1) !important;
+}
+.th-fulgen {
+	background-color: rgba(228,220,238,1) !important;
+}
+.th-nox {
+	background-color: #000000 !important;
+	color: #ffffff !important;
+}
+.c-button-share-bubble input:checked ~ span .th-fb {
+	-webkit-transform: scale(1) translateX(100%) translateY(-100%);
+	transform: scale(1) translateX(100%) translateY(-100%);
+}
+.c-button-share-bubble input:checked ~ span .th-tw {
+	-webkit--transform: scale(1) translateY(-190%);
+	transform: scale(1) translateY(-190%);
+}
+.c-button-theme-bubble input:checked ~ span .th-aurora {
+	-webkit-transform: scale(1) translateX(-290%);
+	transform: scale(1) translateX(-290%);
+}
+.c-button-theme-bubble input:checked ~ span .th-ruber {
+	-webkit-transform: scale(1) translateX(-200%) translateY(-100%);
+	transform: scale(1) translateX(-200%) translateY(-100%);
+}
+.c-button-theme-bubble input:checked ~ span .th-fulgen {
+	-webkit-transform: scale(1) translateX(-100%) translateY(-200%);
+	transform: scale(1) translateX(-100%) translateY(-200%);
+}
+.c-button-theme-bubble input:checked ~ span .th-nox {
+	-webkit-transform: scale(1) translateY(-290%);
+	transform: scale(1) translateY(-290%);
+}
+.c-button-section {
+	display: block;
+	line-height: 64px;
+	margin: auto;
+	text-align: center;
+	position: absolute;
+	bottom: -10vh;
+	left: 0;
+	right: 0;
+	opacity: .5;
+	-webkit-animation: pulse 1s infinite linear;
+	-moz-animation: pulse 1s infinite linear;
+	-o-animation: pulse 1s infinite linear;
+	animation: pulse 1s infinite linear;
+}
+
+/* KTR emphatic labels */
+
+[class*='c-button'] a,
+[class*='c-button'] label {
+	border-radius: 50%;
+	border: none;
+	font-size: 48px;
+	padding: 5px 0px;
+	line-height: 78px;
+	text-align: center;
+	width: 96px;
+	height: 96px;
+}
+[class*='c-button'] img,
+[class*='c-button'] svg {
+	display: block;
+	position: relative;
+	margin: 7px auto 0;
+	width: 64px;
+	height: 64px;
+}
+[class*='c-button'] svg {
+    margin: 0 auto;
+}
+[class*='c-button'] span {
+    margin-left: 8px;
+}
+@media screen and (max-width: 1024px) {
+	[class*='c-button'] a,
+	[class*='c-button'] label {
+		line-height: 46px;
+		width: 64px;
+		height: 64px;
+	}
+	[class*='c-button'] img,
+	[class*='c-button'] svg {
+		display: block;
+		position: relative;
+		margin: 0 auto;
+		width: 52px;
+		height: 52px;
+	}
+	.c-button-theme-bubble em label {
+		padding-top: 12px;
+	}
+}
+	
+/* The end */
