@@ -27,28 +27,29 @@
 		<meta name="twitter:title" content="<$BlogItemTitle$>">
 		</Blogger>
 		</ItemPage>
-		<meta name="twitter:image" content="http://codi.comunistes.cat/src/ics/icon.png" />
+		<meta name="twitter:image" content="https://codi.comunistes.cat/src/ics/icon.png" />
 		<!-- Screen styles -->
-		<link href="http://codi.comunistes.cat/src/styles/screen.components.css" rel="stylesheet" media="screen">
-		<link href="http://codi.comunistes.cat/src/styles/ruber-skin.css" rel="stylesheet" media="screen">
+		<link href="https://codi.comunistes.cat/src/styles/screen.components.css" rel="stylesheet" media="screen">
+		<link href="https://codi.comunistes.cat/src/styles/blogger-hacks.css" rel="stylesheet" media="screen">
+		<link href="../src/styles/ruber-skin.css" rel="stylesheet" media="screen">
 		<!-- Print styles -->
-		<link href="http://codi.comunistes.cat/src/styles/print.css" rel="stylesheet" media="print">
+		<link href="https://codi.comunistes.cat/src/styles/print.css" rel="stylesheet" media="print">
 		<!-- If iexplorer :( -->
-		<!--[if lt IE 9]><script src="http://codi.comunistes.cat/src/styles/html5shiv.js"></script><![endif]-->
-		<!--[if IE]><link rel="stylesheet" type="text/css" href="http://codi.comunistes.cat/src/styles/iexplorer.css" /><![endif]-->
+		<!--[if lt IE 9]><script src="https://codi.comunistes.cat/src/styles/html5shiv.js"></script><![endif]-->
+		<!--[if IE]><link rel="stylesheet" type="text/css" href="https://codi.comunistes.cat/src/styles/iexplorer.css" /><![endif]-->
 		<!-- No Script styles -->		
-		<noscript><link href="http://codi.comunistes.cat/src/styles/noscript.css" rel="stylesheet" media="screen"></noscript>
+		<noscript><link href="https://codi.comunistes.cat/src/styles/noscript.css" rel="stylesheet" media="screen"></noscript>
 		<!-- Site Feed -->
 		<link rel="alternate" type="application/rss+xml" title="rss" href="<$BlogSiteFeedUrl$>">
 		<!-- Page Icons -->
-		<link rel="apple-touch-icon" sizes="180x180" href="http://codi.comunistes.cat/src/ics/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="http://codi.comunistes.cat/src/ics/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="http://codi.comunistes.cat/src/ics/favicon-16x16.png">
-		<link rel="manifest" href="http://codi.comunistes.cat/src/ics/site.webmanifest">
-		<link rel="mask-icon" href="http://codi.comunistes.cat/src/ics/safari-pinned-tab.svg" color="#777777">
-		<link rel="shortcut icon" href="http://codi.comunistes.cat/src/ics/favicon.ico">
+		<link rel="apple-touch-icon" sizes="180x180" href="https://codi.comunistes.cat/src/ics/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="https://codi.comunistes.cat/src/ics/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="https://codi.comunistes.cat/src/ics/favicon-16x16.png">
+		<link rel="manifest" href="https://codi.comunistes.cat/src/ics/site.webmanifest">
+		<link rel="mask-icon" href="https://codi.comunistes.cat/src/ics/safari-pinned-tab.svg" color="#777777">
+		<link rel="shortcut icon" href="https://codi.comunistes.cat/src/ics/favicon.ico">
 		<meta name="msapplication-TileColor" content="#eeeeee">
-		<meta name="msapplication-config" content="http://codi.comunistes.cat/src/ics/browserconfig.xml">
+		<meta name="msapplication-config" content="https://codi.comunistes.cat/src/ics/browserconfig.xml">
 		<meta name="theme-color" content="#ffffff">
 	</head>
 	<body>
@@ -63,39 +64,55 @@
 		<div id="page" class="page">
 			
 		<MainOrArchivePage>	
-			<header id="page-header">
-				<div>
-				
-					<div class="site-logo">
-						<a href="http://comunistes.cat" title="www.comunistes.cat">
-							<img src="" alt="Comunistes">
-							<span>Comunistes de Catalunya</span>
-						</a>
-					</div>
-					
-					<div class="site-nav">
-						<nav>
-							<input class="toggletrigger" type="checkbox" id="mob-nav" name="mob-nav" aria-hidden="true" hidden>
-							<label for="mob-nav" class="toggle">Menú <span class="caret"></span></label>
-							<div id="nav-collapse" class="togglecollapsed">
-								<a href="http://www.comunistes.cat" title="www.comunistes.cat" class="anm-moveFromTopFade delay-100"><b>Comunistes.cat</b></a>
-								<a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-200">Bloc</a>
-								<a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-300">Lluites</a>
-								<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya" class="anm-moveFromTopFade delay-400">Organització</a>
-								<form class="form-search anm-moveFromTopFade delay-1000" action="http://www.google.com/cse"> 
+					<nav id="page-nav" class="nav-smart">
+						<div>
+							<a class="site-logo" href="http://www.comunistes.cat" title="www.comunistes.cat">
+								<img src="../src/ics/android-chrome-192x192.png" alt="C*">
+							</a>
+							<input type="checkbox" id="mobnavdemo" name="mobnavdemo" aria-hidden="true" hidden> 
+							<strong><label for="mobnavdemo">Menú<mark></mark></label></strong>
+							<div hidden>
+								<a href="http://www.comunistes.cat" title="www.comunistes.cat"><b>Comunistes.cat</b></a>
+								<a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya">Bloc</a>
+								<a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya">Imatges</a>
+								<a href="http://videos.comunistes.cat" title="Vídeos dels i les Comunistes de Catalunya">Vídeos</a>
+								<a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya">Lluites</a>
+								<a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya">Organització</a>
+								<form action="http://www.google.com/cse"> 
 									<input type="hidden" name="cx" value="007620493827235173837:iw6nd8cvpza"> 
-									<input type="text" name="q" class="terms" placeholder="cerca"> 
-									<input type="submit" name="sa" class="search" value="·"> 
+									<input type="text" name="q" placeholder="cerca"> 
+									<input type="submit" name="sa" value="·"> 
 								</form>
 							</div>
-						</nav>
-					</div>
+						 </div>
+					</nav>
 					
+			<header id="page-header">
+				<div>
+					<h1><$BlogTitle$></h1>
 				</div>
 			</header>
 			
 			<main id="page-main">
 				<div>
+				
+					<div class="list">
+						<Blogger>
+						<div class="simple">
+							<article  id="<$BlogItemNumber$>">
+								<h3><a href="<$BlogUrl$>" title="<$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+								<strong><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></strong>
+								<$BlogItemBody$>
+								<nav><a href="<$BlogUrl$>" title="<$BlogItemTitle$>">+</a></nav>
+							</article>
+						</div>
+						</Blogger>
+					</div>
+					<hr>
+					
+					<h4 class="universe">Més articles</h4>
+					<nav class="pagination"><$BlogPaginationLinks$></nav>
+					<hr>
 
 				</div>
 			</main>
@@ -105,28 +122,83 @@
 			<ItemPage>
 			<header id="page-header">
 				<div>
-
+					<div class="prev-next"><$BlogPaginationLinks$></div>
+					<Blogger>
+						<h1 id="article-title"><$BlogItemTitle$></h1>
+						<p><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></p>
+					</Blogger>
 				</div>
 			</header>
 			
 			<main id="page-main">
 				<div>
-
+					<Blogger>
+						<div id="article-body">
+							<$BlogItemBody$>
+						</div>
+						<hr>
+					</Blogger>
+					<nav class="pagination"><$BlogPaginationLinks$></nav>
 				</div>
 			</main>
 			</ItemPage>
 
 									
 			<!-- Footer -->
-			<footer class="section-footer">
+			<footer id="page-section">
 				<div>
-
+					<div class="flex-grid-3">
+						<section class="panel">
+							<h6>Comunistes de Catalunya</h6>
+							<adress class="">
+								<span class="location symbol-gear">carrer Liuva, 39-45, Barcelona</span>  <br>
+								<span class="website symbol-hyperlink"><a href="http://comunistes.cat" title="www.comunistes.cat">www.comunistes.cat</a></span>  <br>
+								<span class="email symbol-email"><a href="mailto:info@comunistes.cat" title="Escriu">info@comunistes.cat</a></span>  <br>
+								<span class="phone symbol-blackphone"><a href="tel:+0034933184282" title="truca">(0034) 93 318 42 82</a></span>  <br>
+								<span class="vcard symbol-right-hand"><a href="http://comunistes.cat/pages/comunistes.vcard" download="Comunistes de Catalunya" title="Vcard">vCard </a></span>  <br>
+							</adress>
+						</section>
+						<section class="panel">
+							<h6>Menú</h6>
+							<ul>
+								<li><a href="http://www.comunistes.cat" title="www.comunistes.cat">Comunistes.cat</a></li>
+								<li><a href="http://bloc.comunistes.cat" title="Bloc dels i les Comunistes de Catalunya">Bloc</a></li>
+								<li><a href="http://imatges.comunistes.cat" title="Imatges dels i les Comunistes de Catalunya">Imatges</a></li>
+								<li><a href="http://videos.comunistes.cat" title="Vídeos dels i les Comunistes de Catalunya">Vídeos</a></li>
+								<li><a href="http://comunistes.cat/lluites" title="Lluites dels i les Comunistes de Catalunya">Lluites</a></li>
+								<li><a href="http://comunistes.cat/organitzacio" title="Organització dels i les Comunistes de Catalunya">Organització</a></li>
+							</ul>
+						</section>
+						<section class="panel">
+							<h6 class="">Segueix-nos!</h6>
+							<div class="">
+								<em><small><a href="http://bloc.comunistes.cat/feeds/posts/default" target="blank" title="Segueix-nos amb RSS"> RSS </a></small></em>
+								<em><small><a href="http://www.twitter.com/comunistes" target="blank" title="Segueix-nos a Twitter"> Tw </a></small></em>
+								<em><small><a href="http://www.facebook.com/comunistesdecatalunya" target="blank" title="Segueix-nos a Facebook"> Fb </a></small></em>
+								<em><small><a href="https://www.youtube.com/user/comunistescat" target="blank" title="Segueix-nos a YouTube"> Yt </a></small></em>
+								<em><small><a href="https://www.flickr.com/photos/comunistes" target="blank" title="Segueix-nos a Flickr"> Flckr </a></small></em>
+							</div>
+							<br>
+							<hr>
+							<div id="mc_embed_signup" class="">
+								<form action="//pcc.us5.list-manage.com/subscribe/post?u=8f62fda1531f8aa526553ca23&amp;id=6327b49059" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+									<input type="email" value="" name="EMAIL" class="ovaled l universe" id="mce-EMAIL" placeholder="elteu@email.com">
+										<div class="response" id="mce-error-response" style="display:none"></div>
+										<div class="response" id="mce-success-response" style="display:none"></div>
+									<div style="position: absolute; left: -5000px;"><input type="text" name="b_8f62fda1531f8aa526553ca23_6327b49059" tabindex="-1" value=""></div>
+									<div class="clear"><input type="submit" value="Subscriu-te" name="subscribe" id="mc-embedded-subscribe" class="button ovaled l"></div>
+								</form>
+							</div>
+						</section>
+					</div>
 				</div>
 			</footer>
 			
 			<footer id="page-footer">
 				<div>
-
+					<span class="license symbol-copyright"> 2014 Comunistes de Catalunya. <a href="http://creativecommons.org/licenses/by-nc-nd/4.0/deed.ca" title="Termes de la llicència">Reconeixement - No comercial - Compartir igual (By-nc-sa)</a> </span>  
+					<span class="legal symbol-justice"><a href="https://codi.comunistes.cat/organitzacio/avislegal.html" title="Informació legal">Avís legal</a></span> 
+					<span class="legal symbol-radioactive"><a href="https://codi.comunistes.cat" title="Informació sobre el codi font">Codi font</a></span> 
 				</div>
 			</footer>
 			
@@ -140,6 +212,6 @@
 
 		<!-- Scripts
 		================================================== -->
-		<script src="http://codi.comunistes.cat/src/scripts/ga.js" type="text/javascript"></script>
+		<script src="https://codi.comunistes.cat/src/scripts/ga.js" type="text/javascript"></script>
 	</body>
 </html>
