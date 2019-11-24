@@ -11,7 +11,9 @@ header {
 	text-align: center;
 }
 h1 {
-	white-space: nowrap
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
 }
 .breadcrumb {
 	height: 64px;
