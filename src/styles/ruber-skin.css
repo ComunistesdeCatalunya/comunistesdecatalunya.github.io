@@ -74,7 +74,7 @@ header {
 
 .blog article {
     border-color: transparent;
-    border-top: 8px solid currentColor;
+	border-top: 16px solid currentColor;
     margin-bottom: 32px;
     padding-top: 16px;
 }
