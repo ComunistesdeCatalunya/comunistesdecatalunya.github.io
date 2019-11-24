@@ -12,6 +12,7 @@ header {
 }
 .breadcrumb a {
 		max-width: 128px;
+		max-height: 64px;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
