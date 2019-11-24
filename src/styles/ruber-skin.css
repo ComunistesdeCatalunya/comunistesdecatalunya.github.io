@@ -76,6 +76,7 @@ header {
     border-color: transparent;
     border-top: 8px solid currentColor;
     margin-bottom: 32px;
+    padding-top: 16px;
 }
 .blog article h3 {
 	line-height: 1em;
