@@ -128,6 +128,10 @@ header {
 	right: auto;
 	left: 0;
 }
+.th-share-switcher,
+.th-themes-switcher {
+	background-color: rgba(255,255,255,.5);
+}
 .th-share-switcher:hover:after,
 .th-themes-switcher:hover:after,
 .th-fb:hover:after,
@@ -194,10 +198,12 @@ header {
 		padding-top: 6px;
 	}
 }
+.bg-color-fb,
 .th-fb {
-	background-color: rgba(23,148,227,1) !important;
+	background-color: rgba(59,89,152,1) !important;
 	color: #ffffff !important;
 }
+.bg-color-tw,
 .th-tw {
 	background-color: rgba(29,161,242,1) !important;
 	color: #ffffff !important;
@@ -206,10 +212,10 @@ header {
 	background-color: #ffffff;
 }
 .th-ruber {
-	background-color: rgba(248,228,211,1) !important;
+	background-color: #dd0000 !important;
 }
 .th-fulgen {
-	background-color: rgba(228,220,238,1) !important;
+	background-color: #F4C015 !important;
 }
 .th-nox {
 	background-color: #000000 !important;
