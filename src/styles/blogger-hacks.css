@@ -73,11 +73,11 @@
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
 	border: thin solid currentColor;
 	border-radius: 50%;
-	color: #aaa;
+	color: currentColor;
 	display: block;
 	font-size: 30px;
 	font-weight: normal;
-	line-height: 30px;
+	line-height: 24px;
 	height: 36px;
 	width: 36px;
 	visibility: visible;
