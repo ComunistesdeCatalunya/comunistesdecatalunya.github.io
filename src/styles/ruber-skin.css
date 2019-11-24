@@ -74,9 +74,11 @@ header {
 
 .blog article {
     border-color: transparent;
+    border-top: 8px solid currentColor;
     margin-bottom: 32px;
 }
 .blog article h3 {
+	line-height: 1em;
     margin-bottom: 0;
 }
 .blog article strong a {
