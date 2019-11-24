@@ -10,6 +10,10 @@
 header {
 	text-align: center;
 }
+.breadcrumb {
+	height: 64px;
+	overflow: hidden;
+}
 .breadcrumb a {
 		display: inline-block;
 		max-width: 128px;
