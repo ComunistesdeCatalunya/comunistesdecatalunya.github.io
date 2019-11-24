@@ -152,12 +152,12 @@ header {
     display: none;
 }
 
-.article-body {
+#article-body {
 	display: block;
 	margin: 0 auto;
 	width: 80%;
 }
-.article-body img {
+#article-body img {
 	display: block;
 	margin: 0 auto 16px;
 	width: 98%;
