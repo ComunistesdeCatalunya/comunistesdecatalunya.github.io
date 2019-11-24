@@ -29,9 +29,10 @@
 		</ItemPage>
 		<meta name="twitter:image" content="https://codi.comunistes.cat/src/ics/icon.png" />
 		<!-- Screen styles -->
-		<link href="https://codi.comunistes.cat/src/styles/screen.components.css" rel="stylesheet" media="screen">
+		<link href="https://codi.comunistes.cat/src/styles/screen.css" rel="stylesheet" media="screen">
+		<link href="https://codi.comunistes.cat/src/styles/components.css" rel="stylesheet" media="screen">
 		<link href="https://codi.comunistes.cat/src/styles/blogger-hacks.css" rel="stylesheet" media="screen">
-		<link href="../src/styles/ruber-skin.css" rel="stylesheet" media="screen">
+		<link href="https://codi.comunistes.cat//src/styles/ruber-skin.css" rel="stylesheet" media="screen">
 		<!-- Print styles -->
 		<link href="https://codi.comunistes.cat/src/styles/print.css" rel="stylesheet" media="print">
 		<!-- If iexplorer :( -->
@@ -63,11 +64,10 @@
 		<!-- Page content -->		
 		<div id="page" class="page">
 			
-		<MainOrArchivePage>	
 					<nav id="page-nav" class="nav-smart">
 						<div>
 							<a class="site-logo" href="http://www.comunistes.cat" title="www.comunistes.cat">
-								<img src="../src/ics/android-chrome-192x192.png" alt="C*">
+								<img src="https://codi.comunistes.cat/src/ics/android-chrome-192x192.png" alt="C*">
 							</a>
 							<input type="checkbox" id="mobnavdemo" name="mobnavdemo" aria-hidden="true" hidden> 
 							<strong><label for="mobnavdemo">Menú<mark></mark></label></strong>
@@ -87,6 +87,7 @@
 						 </div>
 					</nav>
 					
+			<MainOrArchivePage>
 			<header id="page-header">
 				<div>
 					<h1><$BlogTitle$></h1>
@@ -96,21 +97,19 @@
 			<main id="page-main">
 				<div>
 				
-					<div class="list">
+					<div class="">
 						<Blogger>
-						<div class="simple">
 							<article  id="<$BlogItemNumber$>">
 								<h3><a href="<$BlogUrl$>" title="<$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
-								<strong><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><time><$BlogItemDateTime$></time></a></strong>
+								<strong><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></strong>
 								<$BlogItemBody$>
 								<nav><a href="<$BlogUrl$>" title="<$BlogItemTitle$>">+</a></nav>
 							</article>
-						</div>
 						</Blogger>
+						<hr>
 					</div>
-					<hr>
-					
-					<h4 class="universe">Més articles</h4>
+					<hr>					
+					<h4>Més articles</h4>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
 					<hr>
 
@@ -139,6 +138,7 @@
 						<hr>
 					</Blogger>
 					<nav class="pagination"><$BlogPaginationLinks$></nav>
+					<hr>
 				</div>
 			</main>
 			</ItemPage>

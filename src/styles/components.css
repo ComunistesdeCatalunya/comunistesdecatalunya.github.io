@@ -281,6 +281,8 @@ article > div {
 
 }
 .simple article div img,
+.simple article div a img,
+#layout-simple:checked ~ #layout-result article div a img,
 #layout-simple:checked ~ #layout-result article div img {
 	height: 254px;
 	margin-bottom: 24px;
@@ -329,7 +331,9 @@ article > div {
 	overflow: hidden;
 }
 .list article div img,
+.list article div a  img,
 #layout-list:checked ~ #layout-result article div img,
+#layout-list:checked ~ #layout-result article div a img,
 .list article div figure,
 #layout-list:checked ~ #layout-result article div figure {
 	border-radius: 50%;
@@ -401,7 +405,9 @@ article > div {
 	height: 254px;
 }
 .table article div img,
-#layout-table:checked ~ #layout-result article div img {
+.table article div a img,
+#layout-table:checked ~ #layout-result article div img,
+#layout-table:checked ~ #layout-result article div a img {
 	height: 254px;
 	object-fit: cover;
 	width: 100%;
@@ -439,7 +445,9 @@ article > div {
 		margin-bottom: 16px;
 	}
 	.table article div img,
-	#layout-table:checked ~ #layout-result article div img {
+	.table article div a img,
+	#layout-table:checked ~ #layout-result article div img,
+	#layout-table:checked ~ #layout-result article div a img {
 		height: 240px;
 	}
 	.table article nav,
@@ -488,6 +496,8 @@ article > div {
 	overflow: hidden;
 }
 .gallery article div img,
+.gallery article div a img,
+#layout-gallery:checked ~ #layout-result article div a img,
 #layout-gallery:checked ~ #layout-result article div img {
 	height: 256px;
 	margin-bottom: 64px;
@@ -555,8 +565,11 @@ article > div {
 	height: 186px;
 	overflow: hidden;
 	padding: 0;
-}.cards article div img,
-#layout-cards:checked ~ #layout-result article div img {
+}
+.cards article div img,
+.cards article div a img,
+#layout-cards:checked ~ #layout-result article div img,
+#layout-cards:checked ~ #layout-result article div a img {
 	height: 186px;
 	overflow: hidden;
 	object-fit: cover;	
@@ -659,7 +672,9 @@ article > div {
 	z-index: 8;
 }
 .tiles article div img,
-#layout-tiles:checked ~ #layout-result article div img {
+.tiles article div a img,
+#layout-tiles:checked ~ #layout-result article div img,
+#layout-tiles:checked ~ #layout-result article div a img {
 	border: none;
 	height: 256px;
 	overflow: hidden;
