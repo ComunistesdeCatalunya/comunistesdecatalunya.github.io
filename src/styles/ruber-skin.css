@@ -62,7 +62,7 @@ header {
 
 .site-logo {
 	height: 56px;
-	margin: -12px;
+	margin: -12px 2px;
 	overflow: hidden;
 	width: 56px;
 }
@@ -77,12 +77,6 @@ header {
 .site-logo:hover img {
 	transform: translateX(-40px) translateY(-2px) scale(3);
 }
-@media screen and (max-width: 1024px) {
-	.site-logo {
-		margin-left: 8px;
-	}
-}
-
 .logo-ruber ,
 .logo-fulgen ,
 .logo-nox {
