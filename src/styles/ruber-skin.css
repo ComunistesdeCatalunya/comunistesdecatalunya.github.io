@@ -77,36 +77,36 @@ header {
 .logo-nox {
 	display: none;
 }
-#theme-aurora:checked ~ .logo-aurora {
+#theme-aurora:checked ~ #page #site-nav .logo-aurora {
 	display: block !important;
 }
-#theme-aurora:checked ~ .logo-ruber ,
-#theme-aurora:checked ~ .logo-fulgen ,
-#theme-aurora:checked ~ .logo-nox {
+#theme-aurora:checked ~ #page #site-nav .logo-ruber ,
+#theme-aurora:checked ~ #page #site-nav .logo-fulgen ,
+#theme-aurora:checked ~ #page #site-nav .logo-nox {
 	display: none !important;
 }
-#theme-ruber:checked ~ .logo-ruber {
+#theme-ruber:checked ~ #page #site-nav .logo-ruber {
 	display: block !important;
 }
-#theme-ruber:checked ~ .logo-aurora ,
-#theme-ruber:checked ~ .logo-fulgen ,
-#theme-ruber:checked ~ .logo-nox {
+#theme-ruber:checked ~ #page #site-nav .logo-aurora ,
+#theme-ruber:checked ~ #page #site-nav .logo-fulgen ,
+#theme-ruber:checked ~ #page #site-nav .logo-nox {
 	display: none !important;
 }
-#theme-fulgen:checked ~ .logo-fulgen {
+#theme-fulgen:checked ~ #page #site-nav .logo-fulgen {
 	display: block !important;
 }
-#theme-fulgen:checked ~ .logo-aurora ,
-#theme-fulgen:checked ~ .logo-ruber ,
-#theme-fulgen:checked ~ .logo-nox {
+#theme-fulgen:checked ~ #page #site-nav .logo-aurora ,
+#theme-fulgen:checked ~ #page #site-nav .logo-ruber ,
+#theme-fulgen:checked ~ #page #site-nav .logo-nox {
 	display: none !important;
 }
-#theme-nox:checked ~ .logo-nox {
+#theme-nox:checked ~ #page #site-nav .logo-nox {
 	display: block !important;
 }
-#theme-nox:checked ~ .logo-ruber ,
-#theme-nox:checked ~ .logo-fulgen ,
-#theme-nox:checked ~ .logo-nox {
+#theme-nox:checked ~ #page #site-nav .logo-ruber ,
+#theme-nox:checked ~ #page #site-nav .logo-fulgen ,
+#theme-nox:checked ~ #page #site-nav .logo-aurora {
 	display: none !important;
 }
 
