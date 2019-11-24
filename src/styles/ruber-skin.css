@@ -155,7 +155,7 @@ header {
 #article-body {
 	display: block;
 	margin: 0 auto;
-	width: 80%;
+	max-width: 767px;
 }
 #article-body img {
 	display: block;
