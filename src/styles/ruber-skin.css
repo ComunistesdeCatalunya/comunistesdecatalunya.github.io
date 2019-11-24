@@ -63,6 +63,36 @@ header {
 	transform: translateX(-40px) translateY(-2px) scale(3);
 }
 
+
+/* Articles*/
+
+/* Blog*/
+
+.blog article {
+    border-color: transparent;
+    margin-bottom: 32px;
+}
+.blog article h3 {
+    margin-bottom: 0;
+}
+.blog article strong a {
+    font-weight: 200;
+    text-decoration: none;
+}
+.blog article img {
+    display: block;
+    height: 256px;
+    object-fit: cover;
+    width: 100%;
+}
+.blog article {
+    border-color: transparent;
+}
+.blog .blogger-labels {
+    display: none;
+}
+
+
 /* KTR bubble Menu */
 
 .c-button-theme-bubble {
