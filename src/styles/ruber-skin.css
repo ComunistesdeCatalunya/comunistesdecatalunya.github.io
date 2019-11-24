@@ -99,6 +99,9 @@ header {
 
 /* Page Section */
 
+#page-section {
+	text-align: center;
+}
 #page-section form {
 	margin: 0;
 	padding: 0;
@@ -110,11 +113,10 @@ header {
 
 /* Footer */
 
-@media screen and (max-width: 600px) {
-	#page-footer {
-		padding: 16px 32px 72px;
+#page-footer {
+		padding: 16px 25% 96px;
+		text-align: center;
 	}
-}
 
 /* KTR bubble Menu */
 
@@ -139,12 +141,6 @@ header {
 	position: absolute;
 	bottom: 0;
 	left: 0;
-}
-.c-button-theme-bubble em label {
-	padding-bottom: 24px;
-}
-.c-button-share-bubble em label {
-	padding-bottom: 8px;
 }
 .c-button-share-bubble span .th-fb,
 .c-button-share-bubble span .th-tw,
@@ -247,9 +243,6 @@ header {
 	}
 	.th-fb,
 	.th-tw {
-		padding-top: 6px;
-	}
-	.c-button-share-bubble em label {
 		padding-top: 6px;
 	}
 }
@@ -357,9 +350,6 @@ header {
 		margin: 0 auto;
 		width: 52px;
 		height: 52px;
-	}
-	.c-button-theme-bubble em label {
-		padding-top: 12px;
 	}
 }
 	
