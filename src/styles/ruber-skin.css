@@ -14,15 +14,18 @@ header {
 	height: 64px;
 	overflow: hidden;
 }
-.breadcrumb a,
-.breadcrumb span {
-		display: inline-block;
-		max-width: 128px;
-		padding-right: 24px;
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
+@media screen and (max-width: 767px) {
+	.breadcrumb a,
+	.breadcrumb span {
+			display: inline-block;
+			max-width: 128px;
+			padding-right: 24px;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+	}
 }
+
 #page-section {
 	background-color: rgba(0,0,0,.7);
 	color: #ffffff;
