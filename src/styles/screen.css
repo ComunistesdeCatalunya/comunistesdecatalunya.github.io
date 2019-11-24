@@ -1207,7 +1207,7 @@ a:visited:active {
 }
 #theme-ruber:checked ~ #page a:visited,
 #theme-ruber:checked ~ #page em a:visited {
-	color: var(--color-ruber);
+	color: var(--color-white);
 }
 #theme-ruber:checked ~ #page label:hover,
 #theme-ruber:checked ~ #page button:hover,
