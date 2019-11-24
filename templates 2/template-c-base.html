@@ -31,7 +31,7 @@
 		<!-- Screen styles -->
 		<link href="https://codi.comunistes.cat/src/styles/screen.components.css" rel="stylesheet" media="screen">
 		<link href="https://codi.comunistes.cat/src/styles/blogger-hacks.css" rel="stylesheet" media="screen">
-		<link href="../src/styles/ruber-skin.css" rel="stylesheet" media="screen">
+		<link href="https://codi.comunistes.cat/src/styles/ruber-skin.css" rel="stylesheet" media="screen">
 		<!-- Print styles -->
 		<link href="https://codi.comunistes.cat/src/styles/print.css" rel="stylesheet" media="print">
 		<!-- If iexplorer :( -->
@@ -63,7 +63,7 @@
 		<!-- Page content -->		
 		<div id="page" class="page">
 			
-					<nav id="page-nav" class="nav-smart">
+					<nav id="site-nav" class="nav-smart">
 						<div>
 							<a class="site-logo" href="http://www.comunistes.cat" title="www.comunistes.cat">
 								<img src="https://codi.comunistes.cat/src/ics/icon.png" alt="C*">
@@ -92,6 +92,12 @@
 					<h1><$BlogTitle$></h1>
 				</div>
 			</header>
+			<nav id="page-nav" class="breadcrumb">
+				<div>
+					<a href="http://comunistes.cat" title="www.comunistes.cat">&#9733;</a> /
+					<$BlogTitle$>
+				</div>
+			</nav>
 			
 			<main id="page-main">
 				<div>
@@ -125,6 +131,13 @@
 					</Blogger>
 				</div>
 			</header>
+			<nav id="page-nav" class="breadcrumb">
+				<div>
+					<a href="http://comunistes.cat" title="www.comunistes.cat">&#9733;</a> /
+					<a href="<$BlogUrl$>" title="<$BlogTitle$>"><$BlogTitle$></a> /
+					<Blogger><$BlogItemTitle$></Blogger>
+				</div>
+			</nav>
 			
 			<main id="page-main">
 				<div>
