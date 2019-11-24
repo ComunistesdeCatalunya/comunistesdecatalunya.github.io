@@ -769,7 +769,7 @@ article > div {
 	-webkit-overflow-scrolling: touch;
 	-ms-overflow-style: -ms-autohiding-scrollbar;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
 	.nav-scroll form {
 		display: inline-block;
 		position: relative;
@@ -793,7 +793,7 @@ nav .menu nav {
 
 /* Small devices navigation */
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
 	.nav-smart,
 	nav .menu nav {
 		position: relative;

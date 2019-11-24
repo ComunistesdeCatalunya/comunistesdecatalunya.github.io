@@ -10,7 +10,11 @@
 header {
 	text-align: center;
 }
-
+.breadcrumb {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+}
 #page-section {
 	background-color: rgba(0,0,0,.7);
 	color: #ffffff;
@@ -62,14 +66,48 @@ header {
 .site-logo:hover img {
 	transform: translateX(-40px) translateY(-2px) scale(3);
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
 	.site-logo {
 		margin-left: 16px;
 	}
 }
 
-#theme-ruber:checked ~ .site-logo .theme-logo {
-
+.logo-ruber ,
+.logo-fulgen ,
+.logo-nox {
+	display: none;
+}
+#theme-aurora:checked ~ .logo-aurora {
+	display: block !important;
+}
+#theme-aurora:checked ~ .logo-ruber ,
+#theme-aurora:checked ~ .logo-fulgen ,
+#theme-aurora:checked ~ .logo-nox {
+	display: none !important;
+}
+#theme-ruber:checked ~ .logo-ruber {
+	display: block !important;
+}
+#theme-ruber:checked ~ .logo-aurora ,
+#theme-ruber:checked ~ .logo-fulgen ,
+#theme-ruber:checked ~ .logo-nox {
+	display: none !important;
+}
+#theme-fulgen:checked ~ .logo-fulgen {
+	display: block !important;
+}
+#theme-fulgen:checked ~ .logo-aurora ,
+#theme-fulgen:checked ~ .logo-ruber ,
+#theme-fulgen:checked ~ .logo-nox {
+	display: none !important;
+}
+#theme-nox:checked ~ .logo-nox {
+	display: block !important;
+}
+#theme-nox:checked ~ .logo-ruber ,
+#theme-nox:checked ~ .logo-fulgen ,
+#theme-nox:checked ~ .logo-nox {
+	display: none !important;
 }
 
 /* Articles*/
@@ -157,7 +195,7 @@ header {
 .c-button-theme-bubble span .th-nox {
 	background-color: rgba(255,255,255,.9);
 	border: 2px solid rgba(0,0,0,.2);
-	font-size: 24px;
+	font-size: 12px;
 	position: absolute;
 	bottom: 0;
 	right: 0;
@@ -204,13 +242,13 @@ header {
 	cursor: pointer;
 	position: absolute;
 	padding: 0 16px;
-	font-size: 16px;
-	line-height: 48px;
-	height: 48px;
+	font-size: 12px;
+	line-height: 36px;
+	height: 36px;
 	min-width: 120px;
 	text-align: center;
 	text-transform: uppercase;
-	left: -190%;
+	left: -270%;
 	right: auto;
 	top: 20%;
 	z-index: 30;
@@ -221,7 +259,7 @@ header {
 	left: 120%;
 	right: auto;
 }
-@media screen and (max-width: 600px) {
+@media (hover: none) and (pointer: coarse) {
 	.th-share-switcher:hover:after,
 	.th-themes-switcher:hover:after,
 	.th-fb:hover:after,
@@ -245,8 +283,8 @@ header {
 	.th-ruber:hover:after,
 	.th-fulgen:hover:after,
 	.th-nox:hover:after {
-		bottom: 10%;
-		left: -300%;
+		top: 10%;
+		left: -360%;
 	}
 	.th-fb,
 	.th-tw {
@@ -324,18 +362,18 @@ header {
 	border: none;
 	font-size: 48px;
 	padding: 5px 0px;
-	line-height: 78px;
+	line-height: 54px;
 	text-align: center;
-	width: 96px;
-	height: 96px;
+	width: 64px;
+	height: 64px;
 }
 [class*='c-button'] img,
 [class*='c-button'] svg {
 	display: block;
 	position: relative;
-	margin: 7px auto 0;
-	width: 64px;
-	height: 64px;
+	margin: 0 auto 0;
+	width: 52px;
+	height: 52px;
 }
 [class*='c-button'] svg {
     margin: 0 auto;
@@ -346,17 +384,17 @@ header {
 @media screen and (max-width: 1024px) {
 	[class*='c-button'] a,
 	[class*='c-button'] label {
-		line-height: 46px;
-		width: 64px;
-		height: 64px;
+		line-height: 36px;
+		width: 48px;
+		height: 48px;
 	}
 	[class*='c-button'] img,
 	[class*='c-button'] svg {
 		display: block;
 		position: relative;
 		margin: 0 auto;
-		width: 52px;
-		height: 52px;
+		width: 36px;
+		height: 36px;
 	}
 }
 	

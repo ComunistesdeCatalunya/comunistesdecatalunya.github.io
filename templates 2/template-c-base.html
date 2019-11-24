@@ -32,7 +32,7 @@
 		<link href="https://codi.comunistes.cat/src/styles/screen.css" rel="stylesheet" media="screen">
 		<link href="https://codi.comunistes.cat/src/styles/components.css" rel="stylesheet" media="screen">
 		<link href="https://codi.comunistes.cat/src/styles/blogger-hacks.css" rel="stylesheet" media="screen">
-		<link href="https://codi.comunistes.cat/src/styles/ruber-skin.css" rel="stylesheet" media="screen">
+		<link href="../src/styles/ruber-skin.css" rel="stylesheet" media="screen">
 		<!-- Print styles -->
 		<link href="https://codi.comunistes.cat/src/styles/print.css" rel="stylesheet" media="print">
 		<!-- If iexplorer :( -->
@@ -56,7 +56,7 @@
 	<body>
 				
 		<!-- Theme inputs (invisibles) -->		
-		<input type="radio" id="theme-aurora" name="theme" aria-hidden="true" hidden>
+		<input type="radio" id="theme-aurora" name="theme" aria-hidden="true" hidden checked>
 		<input type="radio" id="theme-ruber" name="theme" aria-hidden="true" hidden>
 		<input type="radio" id="theme-fulgen" name="theme" aria-hidden="true" hidden>
 		<input type="radio" id="theme-nox" name="theme" aria-hidden="true" hidden> 
@@ -67,7 +67,10 @@
 					<nav id="site-nav" class="nav-smart">
 						<div>
 							<a class="site-logo" href="http://www.comunistes.cat" title="www.comunistes.cat">
-								<img src="https://codi.comunistes.cat/src/ics/favicon-196x196.png" alt="C*">
+								<img class="logo-aurora" src="https://codi.comunistes.cat/src/ics/logo-comunistes-base.png" alt="C*">
+								<img class="logo-ruber" src="https://codi.comunistes.cat/src/ics/logo-comunistes-martell.png" alt="C*">
+								<img class="logo-fulgen" src="https://codi.comunistes.cat/src/ics/logo-comunistes-senyera.png" alt="C*">
+								<img class="logo-nox" src="https://codi.comunistes.cat/src/ics/logo-comunistes-blanc.png" alt="C*">
 							</a>
 							<input type="checkbox" id="mobnavdemo" name="mobnavdemo" aria-hidden="true" hidden> 
 							<strong><label for="mobnavdemo">Menú<mark></mark></label></strong>
@@ -236,7 +239,7 @@
 		<div class="c-button-theme-bubble">
 			<input id="theme-bubble" name="theme-bubble" type="checkbox" hidden>
 			<span>
-				<em><label class="th-nox" for="theme-nox" data-title="Fosc"></label></em>
+				<em><label class="th-nox" for="theme-nox" data-title="Fosc">X</label></em>
 				<em><label class="th-ruber" for="theme-ruber" data-title="Roig"></label></em>
 				<em><label class="th-fulgen" for="theme-fulgen" data-title="Fulgent"></label></em>
 				<em><label class="th-aurora" for="theme-aurora" data-title="Clar"></label></em>
