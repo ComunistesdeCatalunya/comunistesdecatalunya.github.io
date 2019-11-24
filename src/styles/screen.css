@@ -697,7 +697,7 @@ em div a {
 	display: block;
 	text-decoration: none;
 }
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
 	nav [data-mode=menu] em label {
 		display: block;
 		width: 100%;
@@ -824,7 +824,7 @@ nav label {
 
 /* Nav small devices */
 
-@media (max-width: 1024px) {
+@media (max-width: 767px) {
 	nav {
 		text-align: center;
 	}
@@ -1187,6 +1187,80 @@ a:visited:active {
 	background-color: var(--color-translucentwhite);
 }
 
+/* Ruber theme */
+
+#theme-ruber:checked ~ #page,
+#theme-ruber:checked ~ #site-nav,
+#theme-ruber:checked ~ #page-nav,
+#theme-ruber:checked ~ div > dialog {
+	background-color: var(--color-ruber);
+	color: var(--color-white);	
+}
+#theme-ruber:checked ~ #page a {
+	color: var(--color-white);	
+}
+#theme-ruber:checked ~ #page em a,
+#theme-ruber:checked ~ #page em label,
+#theme-ruber:checked ~ #page em button {
+	background-color: var(--color-black);
+	color: var(--color-softgrey);	
+}
+#theme-ruber:checked ~ #page a:visited,
+#theme-ruber:checked ~ #page em a:visited {
+	color: var(--color-grey);
+}
+#theme-ruber:checked ~ #page label:hover,
+#theme-ruber:checked ~ #page button:hover,
+#theme-ruber:checked ~ #page a:hover,
+#theme-ruber:checked ~ #page a:visited:hover {
+	color: var(--color-softgrey);
+}
+#theme-ruber:checked ~ #page a:active,
+#theme-ruber:checked ~ #page a:visited:active {
+	color: var(--color-grey);
+}
+#theme-ruber:checked ~ #page nav a:hover,
+#theme-ruber:checked ~ #page nav label:hover {
+	background-color: var(--color-translucentwhite);
+}
+
+/* Fulgen theme */
+
+#theme-fulgen:checked ~ #page,
+#theme-fulgen:checked ~ #site-nav,
+#theme-fulgen:checked ~ #page-nav,
+#theme-fulgen:checked ~ div > dialog {
+	background-color: var(--color-fulgen);
+	color: var(--color-white);	
+}
+#theme-fulgen:checked ~ #page a {
+	color: var(--color-white);	
+}
+#theme-fulgen:checked ~ #page em a,
+#theme-fulgen:checked ~ #page em label,
+#theme-fulgen:checked ~ #page em button {
+	background-color: var(--color-black);
+	color: var(--color-softgrey);	
+}
+#theme-fulgen:checked ~ #page a:visited,
+#theme-fulgen:checked ~ #page em a:visited {
+	color: var(--color-grey);
+}
+#theme-fulgen:checked ~ #page label:hover,
+#theme-fulgen:checked ~ #page button:hover,
+#theme-fulgen:checked ~ #page a:hover,
+#theme-fulgen:checked ~ #page a:visited:hover {
+	color: var(--color-softgrey);
+}
+#theme-fulgen:checked ~ #page a:active,
+#theme-fulgen:checked ~ #page a:visited:active {
+	color: var(--color-grey);
+}
+#theme-fulgen:checked ~ #page nav a:hover,
+#theme-fulgen:checked ~ #page nav label:hover {
+	background-color: var(--color-translucentwhite);
+}
+
 /* Page grid 
 #page {
 	background-image: linear-gradient(to bottom, cyan 0, rgba(255, 255, 255, 0) 1px);
@@ -1243,6 +1317,12 @@ a:visited:active {
 	/* Overlays */
 	--color-translucentblack: rgba(0,0,0,.5);
 	--color-translucentwhite: rgba(255,255,255,.4);
+	
+	/* Ruber */
+	--color-ruber: rgba(221,0,0,1);
+	
+	/* Fulgen */
+	--color-fulgen: rgba(244,192,21,1);
 		
 	/* Font stacks */
 	--font-default: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
