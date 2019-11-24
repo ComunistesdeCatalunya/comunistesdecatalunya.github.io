@@ -14,7 +14,8 @@ header {
 	height: 64px;
 	overflow: hidden;
 }
-.breadcrumb a {
+.breadcrumb a,
+.breadcrumb span {
 		display: inline-block;
 		max-width: 128px;
 		padding-right: 24px;
