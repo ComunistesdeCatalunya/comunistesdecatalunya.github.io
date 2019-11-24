@@ -62,7 +62,11 @@ header {
 .site-logo:hover img {
 	transform: translateX(-40px) translateY(-2px) scale(3);
 }
-
+@media screen and (max-width: 600px) {
+	.site-logo {
+		margin-left: 16px;
+	}
+}
 
 /* Articles*/
 
@@ -92,6 +96,25 @@ header {
     display: none;
 }
 
+
+/* Page Section */
+
+#page-section form {
+	margin: 0;
+	padding: 0;
+}
+#page-section form input {
+	border-radius: 16px;
+	margin-bottom: 16px;
+}
+
+/* Footer */
+
+@media screen and (max-width: 600px) {
+	#page-footer {
+		padding: 16px 32px 72px;
+	}
+}
 
 /* KTR bubble Menu */
 
@@ -196,6 +219,8 @@ header {
 	right: auto;
 }
 @media screen and (max-width: 600px) {
+	.th-share-switcher:hover:after,
+	.th-themes-switcher:hover:after,
 	.th-fb:hover:after,
 	.th-tw:hover:after,
 	.th-aurora:hover:after,

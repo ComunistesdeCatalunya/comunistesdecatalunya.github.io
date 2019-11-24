@@ -31,7 +31,7 @@
 		<!-- Screen styles -->
 		<link href="https://codi.comunistes.cat/src/styles/screen.components.css" rel="stylesheet" media="screen">
 		<link href="https://codi.comunistes.cat/src/styles/blogger-hacks.css" rel="stylesheet" media="screen">
-		<link href="https://codi.comunistes.cat//src/styles/ruber-skin.css" rel="stylesheet" media="screen">
+		<link href="../src/styles/ruber-skin.css" rel="stylesheet" media="screen">
 		<!-- Print styles -->
 		<link href="https://codi.comunistes.cat/src/styles/print.css" rel="stylesheet" media="print">
 		<!-- If iexplorer :( -->
@@ -66,7 +66,7 @@
 					<nav id="page-nav" class="nav-smart">
 						<div>
 							<a class="site-logo" href="http://www.comunistes.cat" title="www.comunistes.cat">
-								<img src="https://codi.comunistes.cat/src/ics/android-chrome-192x192.png" alt="C*">
+								<img src="https://codi.comunistes.cat/src/ics/icon.png" alt="C*">
 							</a>
 							<input type="checkbox" id="mobnavdemo" name="mobnavdemo" aria-hidden="true" hidden> 
 							<strong><label for="mobnavdemo">Menú<mark></mark></label></strong>
@@ -99,10 +99,9 @@
 					<div class="blog">
 						<Blogger>
 							<article  id="<$BlogItemNumber$>">
-								<h3><a href="<$BlogUrl$>" title="<$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
+								<h3><a href="<$BlogItemPermalinkUrl$>" title="<$BlogItemTitle$>"><$BlogItemTitle$></a></h3>
 								<strong><a href="<$BlogUrl$><$BlogItemArchiveFileName$>" title="<$BlogItemArchiveFileName$>"><$BlogItemDateTime$></a></strong>
 								<$BlogItemBody$>
-								<nav><a href="<$BlogUrl$>" title="<$BlogItemTitle$>">+</a></nav>
 							</article>
 						</Blogger>
 						<hr>
@@ -177,8 +176,6 @@
 								<em><small><a class="bg-color-red" href="https://www.youtube.com/user/comunistescat" target="blank" title="Segueix-nos a YouTube"> Yt </a></small></em>
 								<em><small><a class="bg-color-violet" href="https://www.flickr.com/photos/comunistes" target="blank" title="Segueix-nos a Flickr"> Flckr </a></small></em>
 							</div>
-							<br>
-							<hr>
 							<div id="mc_embed_signup" class="">
 								<form action="//pcc.us5.list-manage.com/subscribe/post?u=8f62fda1531f8aa526553ca23&amp;id=6327b49059" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
 									<input type="email" value="" name="EMAIL" class="ovaled l universe" id="mce-EMAIL" placeholder="elteu@email.com">
