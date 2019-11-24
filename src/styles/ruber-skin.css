@@ -12,6 +12,7 @@ header {
 }
 h1 {
 	hyphens: none;
+	white-space: nowrap
 }
 .breadcrumb {
 	height: 64px;
