@@ -94,6 +94,7 @@
 
 .pagination {
 	margin: 3em auto 1em;
+	text-align: center;
 }
 .pagination a {
 	visibility: hidden;
