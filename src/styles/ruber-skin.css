@@ -152,6 +152,16 @@ header {
     display: none;
 }
 
+.article-body {
+	display: block;
+	margin: 0 auto;
+	width: 80%;
+}
+.article-body img {
+	display: block;
+	margin: 0 auto;
+	width: 98%;
+}
 
 /* Page Section */
 
