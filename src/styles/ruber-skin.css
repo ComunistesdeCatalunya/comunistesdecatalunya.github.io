@@ -77,9 +77,9 @@ header {
 .site-logo:hover img {
 	transform: translateX(-40px) translateY(-2px) scale(3);
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
 	.site-logo {
-		margin-left: 16px;
+		margin-left: 8px;
 	}
 }
 
