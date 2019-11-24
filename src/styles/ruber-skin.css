@@ -87,6 +87,11 @@ h1 {
 .site-logo:hover img {
 	transform: translateX(-40px) translateY(-2px) scale(3);
 }
+@media screen and (max-width: 767px) {
+	.site-logo {
+		margin: -12px -0 0;
+	}
+}
 .logo-ruber ,
 .logo-fulgen ,
 .logo-nox {
