@@ -11,8 +11,9 @@ header {
 	text-align: center;
 }
 .breadcrumb a {
+		display: inline-block;
 		max-width: 128px;
-		max-height: 64px;
+		height: 64px;
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
