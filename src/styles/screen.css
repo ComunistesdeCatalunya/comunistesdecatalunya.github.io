@@ -733,7 +733,7 @@ nav label {
 	border: 1px solid transparent;
 	display:inline;
 	display: inline-block;
-	padding: 15px;
+	padding: 15px 8px;
 	text-decoration: none;
 }
 article > nav a,
