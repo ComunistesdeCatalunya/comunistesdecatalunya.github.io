@@ -171,6 +171,9 @@ h1 {
     bottom: -16px;
     left: 46%;
 }
+.blog em a:hover {
+	text-decoration: none;
+}
 .blog .blogger-labels {
     display: none;
 }
