@@ -1242,7 +1242,9 @@ a:visited:active {
 	background-color: var(--color-ruber);
 	color: var(--color-fulgen);	
 }
-#theme-fulgen:checked ~ #page a:visited,
+#theme-fulgen:checked ~ #page a:visited {
+	color: var(--color-ruber);
+}
 #theme-fulgen:checked ~ #page em a:visited {
 	color: var(--color-fulgen);
 }
