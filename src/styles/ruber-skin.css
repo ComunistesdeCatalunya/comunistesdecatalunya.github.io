@@ -172,7 +172,7 @@ h1 {
 	min-width: 120%;
 }
 @media (max-width: 1024px) {
-	#article-bodyimg,
+	#article-body img,
 	#article-body .starred {
 		margin: 0 auto;
 		min-width: 98%;
