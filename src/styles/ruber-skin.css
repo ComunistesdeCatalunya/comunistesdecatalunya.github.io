@@ -166,10 +166,17 @@ h1 {
 	margin: 0 auto;
 	max-width: 767px;
 }
-#article-body img {
-	display: block;
-	margin: 0 auto 16px;
-	width: 98%;
+#article-body img,
+#article-body .starred {
+	margin: 0 -10%;
+	min-width: 120%;
+}
+@media (max-width: 768px) {
+	#article-bodyimg,
+	#article-body .starred {
+		margin: 0;
+		min-width: 100%;
+	}
 }
 
 /* Page Section */
