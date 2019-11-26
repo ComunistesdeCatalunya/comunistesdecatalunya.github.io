@@ -71,23 +71,28 @@
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
-	border: thin solid currentColor;
+	border: thin solid #ccc;
 	border-radius: 50%;
-	color: currentColor;
+	color: #bbb;
+	content:'\25B6';
 	display: block;
-	font-size: 30px;
+	font-size: 1.2em;
 	font-weight: normal;
-	line-height: 30px;
-	height: 36px;
-	width: 36px;
+	line-height: 1.6em;
+	height: 2em;
+	width: 2em;
 	visibility: visible;
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after {
-	content: '<';
+	content:'\25B6';
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after,
 .prev-next .blog-paging-control-container .blog-paging-control:only-child:after {
-	content: '>';
+ 	 -o-transform: rotate(180deg);
+	 -ms-transform: rotate(180deg);
+	 -moz-transform: rotate(180deg);
+	 -webkit-transform: rotate(180deg);
+	 transform: rotate(180deg);
 }
 
 /* Blogger Pagination */
