@@ -20,6 +20,13 @@ h1 {
 	-moz-hyphens: none;
 	hyphens: none;
 }
+
+/* Nav */
+
+#site-nav div {
+    margin-left: 16px;
+    margin-right: 16px;
+}
 .breadcrumb {
 	height: 64px;
 	overflow: hidden;
@@ -147,6 +154,12 @@ h1 {
 .blog article strong a {
     font-weight: 200;
     text-decoration: none;
+}
+.blog article > div {
+	height: 256px;
+	pointer-events: none;
+	overflow: hidden;
+	width: 100%;
 }
 .blog article img {
     display: block;
