@@ -83,15 +83,15 @@
 	width: 2em;
 	visibility: visible;
 }
-.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after,
-.prev-next .blog-paging-control-container .blog-paging-control:only-child:after {
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(1):after {
  	 -o-transform: rotate(180deg);
 	 -ms-transform: rotate(180deg);
 	 -moz-transform: rotate(180deg);
 	 -webkit-transform: rotate(180deg);
 	 transform: rotate(180deg);
 }
-.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after {
+.prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after,
+.prev-next .blog-paging-control-container .blog-paging-control:only-child:after {
 
 }
 
