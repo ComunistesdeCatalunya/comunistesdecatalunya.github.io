@@ -162,6 +162,19 @@ h1 {
     height: 256px;
     object-fit: cover;
     width: 100%;
+
+	filter:grayscale(.5);
+	-webkit-filter:grayscale(.5);
+	-moz-filter:grayscale(.5);
+	-ms-filter:grayscale(.5);
+	-o-filter:grayscale(.5);
+}
+.blog article:hover img {
+	filter:grayscale(0);
+	-webkit-filter:grayscale(0);
+	-moz-filter:grayscale(0);
+	-ms-filter:grayscale(0);
+	-o-filter:grayscale(0);
 }
 .blog em a {
     background-color: #ffffff;
