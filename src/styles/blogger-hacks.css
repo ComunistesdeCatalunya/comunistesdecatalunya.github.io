@@ -92,7 +92,11 @@
 }
 .prev-next .blog-paging-control-container .blog-paging-control:nth-child(2):after,
 .prev-next .blog-paging-control-container .blog-paging-control:only-child:after {
-
+ 	 -o-transform: rotate(0deg);
+	 -ms-transform: rotate(0deg);
+	 -moz-transform: rotate(0deg);
+	 -webkit-transform: rotate(0deg);
+	 transform: rotate(0deg);
 }
 
 /* Blogger Pagination */
@@ -105,10 +109,11 @@
 	visibility: hidden;
 }
 .pagination a:after {
+    border: 1px solid currentColor;
 	border-radius: 2em;
 	font-weight: normal;
 	margin-left: -5em;
-	padding: .75em 1em;
+	padding: .25em 1em;
 	visibility: visible;
 }
 .pagination a:nth-child(1):after {
