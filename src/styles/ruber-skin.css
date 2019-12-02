@@ -154,8 +154,8 @@ h1 {
     .blog article  {
         display: block;
         float: none;
-        margin: 0 auto;
-        width: 98%;
+        margin: 0 auto 32px;
+        width: 96%;
     }
 }
 .blog article h3 {
@@ -165,9 +165,6 @@ h1 {
     margin-bottom: 0;
     overflow: hidden;
     padding: 0 12px 0;
-	-webkit-hyphens: none;
-	-moz-hyphens: none;
-	hyphens: none;
 }
 .blog article strong a {
     font-size: 12px;
