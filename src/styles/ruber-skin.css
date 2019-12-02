@@ -141,9 +141,14 @@ h1 {
     border-color: currentColor;
     border-radius: 6px;
     float: left;
-    margin: 0 2% 32px;
+    margin: 0 1% 32px;
     padding: 16px 0 0;
-    width: 46%;
+    width: 31%;
+}
+@media (max-width: 1024px) {
+    .blog article  {
+        width: 48%;
+    }
 }
 @media (max-width: 767px) {
     .blog article  {
