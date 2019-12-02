@@ -165,6 +165,9 @@ h1 {
     margin-bottom: 0;
     overflow: hidden;
     padding: 0 12px 0;
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	hyphens: none;
 }
 .blog article strong a {
     font-size: 12px;
