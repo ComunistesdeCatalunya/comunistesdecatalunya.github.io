@@ -201,6 +201,14 @@ h1 {
 	margin: 0 -10%;
 	min-width: 120%;
 }
+#article-body img:hover,
+a[href*="flickr.com"]:hover {
+    box-shadow: 0px 0 4px rgba(0,0,0,.5);
+	cursor: -webkit-zoom-in; 
+	cursor: -moz-zoom-in;
+	cursor: zoom-in;
+}
+}
 @media (max-width: 1024px) {
 	#article-body img,
 	#article-body .starred {
