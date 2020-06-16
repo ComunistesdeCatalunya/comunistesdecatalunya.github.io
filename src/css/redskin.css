@@ -39,10 +39,13 @@
 }
 .header-campaign {
 	background-size: 100% !important;
-    min-height: 500px
+    min-height: 520px
+}
+@media (max-width: 1024px) {
+    .header-campaign { min-height: 320px; }
 }
 @media (max-width: 767px) {
-    .header-campaign { background-size: 100% !important; min-height: 200px; }
+    .header-campaign { min-height: 220px; }
 	.header-banner h1 {
 		font-size: 3em;
 	}
@@ -54,7 +57,8 @@
 	}
 }
 @media (max-width: 481px) {
-	.header-banner h1 {
+    .header-campaign { min-height: 90px; }
+   	.header-banner h1 {
 		font-size: 1.6em;
 	}
 	.header-banner h2 {
