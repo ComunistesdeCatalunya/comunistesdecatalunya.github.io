@@ -28,7 +28,7 @@
 #header nav {
 	margin-top: .2em;
 }
-.header-banner, .header-campaign {
+.header-banner {
 	background-size: cover !important;
 }
 .header-banner h1 {
@@ -37,8 +37,12 @@
 .header-banner h3 {
 	font-size: 5em;
 }
+.header-campaign {
+	background-size: 100% !important;
+    min-height: 500px
+}
 @media (max-width: 767px) {
-    .header-campaign {background-size: 100% !important;}
+    .header-campaign { background-size: 100% !important; min-height: 200px; }
 	.header-banner h1 {
 		font-size: 3em;
 	}
